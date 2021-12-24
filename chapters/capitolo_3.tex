@@ -1,0 +1,192 @@
+\chapter{Implementazione}
+  \label{chapter_implementazione}
+  \section{Modelli}
+
+  \subsection{AnalisiChimiche}
+  La classe \textit{AnalisiChimiche} rappresenta il relativo oggetto nel database. Questo oggetto viene utilizzato per la
+  rappresentazione delle rilevazioni delle Analisi Chimiche relative alle colate specifiche. Queste analisi chimiche vengono
+  rilevate tramite uno strumento, chiamato quantometro, e memorizzate su dei file. Questi file vengono poi analizzati dalla
+  web application \textit{Rapporti di Lavoro} e i dati relativi alle analisi chimiche vengono memorizzati nel database. I dati
+  presenti in questo oggetto sono i seguenti:
+  \begin{itemize}
+    \item \textit{AcId}, ovvero un intero che rappresenta un identificativo progressivo dell'analisi chimica;
+    \item \textit{AcIdColata}, ovvero un intero che fa riferimento all'identificativo progressivo della colata a cui
+    fa riferimento l'analisi;
+    \item \textit{AcIdMateriaPrima}, ovvero un intero che fa riferimento all'identificativo progressivo del materiale rilevato durante
+    l'analisi;
+    \item \textit{AcPercRilevata}, ovvero un numero che indica la quantità, in percentuale, dell'elemento rilevato presente
+    all'interno della colata;
+    \item \textit{AcData}, ovvero data e ora in cui è stata effettuata la rilevazione;
+    \item \textit{AcIdQuantometro}, ovvero l'identificativo del quantometro, ovvero lo strumento utilizzato per eseguire
+    l'analisi chimica;
+    \item \textit{AcPerCliente}, ovvero un flag che indica se l'analisi è l'analisi definita \textit{Per Cliente},
+    ovvero l'analisi definitiva;
+    \item \textit{AcDataPerCliente}, ovvero data e ora in cui è stata salvata l'analisi \textit{Per Cliente}.
+  \end{itemize}
+
+  \subsection{Anomalie}
+  La classe \textit{Anomalie} rappresenta il relativo oggetto nel database. Questo oggetto viene utilizzato per la
+  rappresentazione delle anomalie che si sono verificate durante una colata nei vari impianti. Nelle pagine relative
+  ai rapporti di lavoro è presente una tabella che consente la visualizzazione di questi dati e la possibilità di aggiungere
+  delle nuove anomalie tramite un popup che consente l'inserimento della data in cui l'anomalia si è verificata e 
+  il tipo e la descrizione dell'anomalia. I dati presenti in questo oggetto sono i seguenti:
+  \begin{itemize}
+    \item \textit{AId}, ovvero un intero che rappresenta un identificativo progressivo dell'anomalia;
+    \item \textit{AOperatore}, ovvero una stringa che indica l'operatore che ha salvato l'anomalia;
+    \item \textit{AData}, ovvero data e ora in cui si è verificata l'anomalia;
+    \item \textit{AIdTipoAnomalia}, ovvero un intero che fa riferimento all'identificativo progressivo del tipo di anomalia;
+    \item \textit{ADescrizione}, ovvero una stringa che contiene eventuali note che l'operatore inserisce durante la
+    fase di salvataggio dell'anomalia;
+    \item \textit{AIdImpianto}, ovvero un intero che fa riferimento all'identificativo dell'impianto in cui si è verificata
+    l'anomalia;
+    \item \textit{AIdColataBase}, ovvero un intero che fa riferimento all'identificativo progressivo della colata base in corso
+    nel momento in cui si è verificata l'anomalia;
+    \item \textit{AIdColataSpecifica}, ovvero un intero che fa riferimento all'identificativo progressivo della colata specifica
+    in corso nel momento in cui si è verificata l'anomalia;
+    \item \textit{AIdMacchina}, ovvero un intero che fa riferimento all'identificativo progressivo della macchina nella quale
+    si è verificata l'anomalia, utilizzato solo nei \textit{Rapporti Lavoro Colata Continua}.
+  \end{itemize}
+    
+  \subsection{Colate}
+  La classe \textit{VColateAll} rappresenta il relativo oggetto nel database. Questo oggetto viene utilizzato per la
+  rappresentazione di tutte le informazioni relative alle colate (base e specifiche) che sono state schedulate. Queste
+  informazioni vengono visualizzate nella pagina \textit{Storico Colate}. I dati presenti in questo oggetto sono i seguenti:
+  \begin{itemize}
+    \item \textit{VcaId}, ovvero un intero che rappresenta un identificativo progressivo della colata;
+    \item \textit{VcaIdColataLegaBase}, ovvero un intero che fa riferimento all'identificativo progressivo della colata base,
+    utilizzato solo per le colate specifiche;
+    \item \textit{VcaIdLega}, ovvero un intero che fa riferimento all'identificativo della lega prodotta dalla colata;
+    \item \textit{VcaNomeLega}, ovvero una stringa che rappresenta la descrizione relativa alla lega prodotta dalla colata;
+    \item \textit{VcaNumeroColata}, ovvero una stringa che rappresenta il numero della colata;
+    \item \textit{VcaIdDestinazione}, ovvero un intero che fa riferimento all'impianto di destinazione della colata, ovvero
+    il forno verso il quale la colata base viene sversata;
+    \item \textit{VcaNomeDestinazione}, ovvero una stringa che rappresenta il nome della destinazione della colata;
+    \item \textit{VcaInizioSched}, ovvero data e ora prevista di inizio della colata;
+    \item \textit{VcaFineSched}, ovvero data e ora prevista di fine della colata;
+    \item \textit{VcaInizioOper}, ovvero data e ora effettive di inizio della colata;
+    \item \textit{VcaFineOper}, ovvero data e ora effettive di fine colata;
+    \item \textit{VcaIdStato}, ovvero un intero che fa riferimento all'identificativo dello stato della colata;
+    \item \textit{VcaStato}, ovvero una stringa che rappresenta la descrizione relativa allo stato della colata;
+    \item \textit{VcaOperatoreColataPronta}, ovvero una stringa che indica l'operatore che ha dichiarato la colata pronta;
+    \item \textit{VcaProntaOper}, ovvero data e ora in cui la colata è stata dichiarata pronta;
+    \item \textit{VcaOperatoreFineColata}, ovvero una stringa che indica l'operatore che ha dichiarato la colata conclusa;
+    \item \textit{VcaPeso}, ovvero un intero che indica il peso totale della colata;
+    \item \textit{VcaNumColataProg}, ovvero un intero che rappresenta un numero progressivo che identifica la colata, utilizzato
+    solo per le colate specifiche;
+    \item \textit{VcaIsBase}, ovvero un flag che indica se la colata è una colata base;
+    \item \textit{VcaIsSpecifica}, ovvero un flag che indica se la colata è una colata specifica;
+    \item \textit{VcaIdCliente}, ovvero un intero che fa riferimento all'identificativo del cliente relativo alla colata;
+    \item \textit{VcaNomeCliente}, ovvero una stringa che rappresenta il nome del cliente relativo alla colata.
+  \end{itemize}
+  
+  \subsection{Correzioni}
+  La classe \textit{Correzioni} rappresenta il relativo oggetto nel database. Questo oggetto viene utilizzato per la
+  rappresentazione delle correzioni da effettuare alal colata in base ai calcoli effettuati sulle analisi chimiche.
+  Nella pagina \textit{Analisi Chimiche} è infatti possibile effettuare i calcoli delle correzioni per le analisi chimiche
+  che non rispettano la specifica. Quando queste proposte di correzioni vengono accettate, le rispettive informazioni vengono
+  memorizzate tramite questo oggetto. I dati presenti in questo oggetto sono i seguenti:
+  \begin{itemize}
+      \item \textit{CId}, ovvero un intero che rappresenta un identificativo progressivo della correzione;
+      \item \textit{CIdMateria}, ovvero un intero che fa riferimento all'identificativo del correttivo che deve essere
+      utilizzato per eseguire la correzione;
+      \item \textit{CQtaDaCaricare}, ovvero un numero che rappresenta la quantità del correttivo da caricare nella colata;
+      \item \textit{COperatore}, ovvero una stringa che rappresenta il nome dell'operatore che ha accettato la correzione;
+      \item \textit{CData}, ovvero data e ora in cui è stata accettata la proposta di correzione;
+      \item \textit{CIdAnalisi}, ovvero un intero che fa riferimento all'identificativo dell'analisi chimica di riferimento;
+      \item \textit{CStatoCarica}, ovvero un intero che fa riferimento all'identificativo dello stato carica della correzione;
+      \item \textit{CIdColata}, ovvero un intero che fa riferimento all'identificativo della colata della quale deve essere
+      effettuata la correzione.
+  \end{itemize}
+
+  \subsection{Schede Output}
+  La classe \textit{SchedeOutput} rappresenta il relativo oggetto nel database. Questo oggetto viene utilizzato per la
+  rappresentazione delle schede contenente le informazioni relative agli output della varie colate. Ogni scheda equivale
+  a un cassone presente in impianto che contiene tutti gli output relativi alle colate del relativo impianto. I dati
+  presenti in questo oggetto sono i seguenti:
+  \begin{itemize}
+    \item \textit{SoId}, ovvero un intero che rappresenta un identificativo progressivo della scheda;
+    \item \textit{SoStato}, ovvero un intero che fa riferimento all'identificativo dello stato della scheda;
+    \item \textit{SoNumeroCamion}, ovvero una stringa che rappresenta il progressivo del camion utilizzato per la spedizione
+    del contenuto del cassone collegato alla scheda;
+    \item \textit{SoAperturaScheda}, ovvero data e ora di apertura della scheda output;
+    \item \textit{SoSchedaPronta}, ovvero data e ora di chiusura della scheda output;
+    \item \textit{SoSchedaSpedita}, ovvero data e ora di spedizione della scheda output;
+    \item \textit{SoTipoScheda}, ovvero un intero che fa riferimento all'identificativo del tipo di scheda;
+    \item \textit{SoOperatoreAperturaScheda}, ovvero una stringa che rappresenta l'operatore che ha aperto la scheda;
+    \item \textit{SoOperatoreSchedaPronta}, ovvero una stringa che rappresenta l'operatore che ha dichiarato chiusa la scheda;
+    \item \textit{SoOperatoreSchedaSpedita}, ovvero una stringa che rappresenta l'operatore che ha dichiarato la
+    spedizione della scheda;
+    \item \textit{SoCassone}, ovvero un intero che fa riferimento all'identificativo progressivo del cassone di riferimento;
+    \item \textit{SoNumeroDdt}, ovvero una stringa che rappresenta il numero del documento di trasporto (\textit{DDT}) relativo
+    alla spedizione della scheda.
+  \end{itemize}
+
+  \subsection{Output Colata}
+  La classe \textit{VOutputColata} rappresenta il relativo oggetto nel database. Questo oggetto viene utilizzato per la
+  rappresentazione delle informazioni relative agli output di tutte le colate, base e specifiche. I dati presenti in questo
+  oggetto sono i seguenti:
+  \begin{itemize}
+    \item \textit{VocId}, int;
+    \item \textit{VocIdScheda}, int;
+    \item \textit{VocQuantitaOutput}, float;
+    \item \textit{VocTipoOutput}, byte;
+    \item \textit{VocDescOutput}, string;
+    \item \textit{VocDataColata}, DateTime;
+    \item \textit{VocDichiarazione}, DateTime;
+    \item \textit{VocNumColataProg}, int;
+    \item \textit{VocNumColata}, string;
+    \item \textit{VocIdColata}, int;
+    \item \textit{VocSettimana}, int;
+    \item \textit{VocNomeLega}, string;
+    \item \textit{VocScorifica}, DateTime;
+    \item \textit{VocOperatore}, string;
+    \item \textit{VocIdQualita}, byte;
+    \item \textit{VocNomeQualita}, string;
+    \item \textit{VocIdProvenienzaColaticcio}, byte;
+    \item \textit{VocNomeProvenienzaColaticcio}, string;
+    \item \textit{VocDiProva}, bool;
+    \item \textit{VocNrCasse}, int;
+    \item \textit{VocNote}, string.
+  \end{itemize}
+  
+
+  \subsection{Rapporti Lavoro}
+  La classe \textit{AnalisiChimiche} rappresenta il relativo oggetto nel database. Questo oggetto viene utilizzato per la
+  rappresentazione delle rilevazioni delle Analisi Chimiche relative alle colate specifiche. Queste analisi chimiche vengono
+  rilevate tramite uno strumento, chiamato quantometro, e memorizzate su dei file. Questi file vengono poi analizzati dalla
+  web application \textit{Rapporti di Lavoro} e i dati relativi alle analisi chimiche vengono memorizzati nel database. I dati
+  presenti in questo oggetto sono i seguenti:
+  \begin{itemize}
+    \item \textit{VrlbId}, int;
+    \item \textit{VrlbDataInizio}, DateTime;
+    \item \textit{VrlbDataFine}, DateTime;
+    \item \textit{VrlbOperatore}, string;
+    \item \textit{VrlbNumeroColata}, string;
+    \item \textit{VrlbAnno}, int;
+    \item \textit{VrlbFamigliaLega}, string.
+  \end{itemize}
+  
+  \begin{itemize}
+    \item \textit{VrlsId}, int;
+    \item \textit{VrlsDataInizio}, DateTime;
+    \item \textit{VrlsDataFine}, DateTime;
+    \item \textit{VrlsIdDestinazione}, short;
+    \item \textit{VrlsDestinazioneNome}, string;
+    \item \textit{VrlsOperatore}, string;
+    \item \textit{VrlsNumeroColata}, string;
+    \item \textit{VrlsAnno}, int;
+    \item \textit{VrlsLega}, string;
+    \item \textit{VrlsDurata}, int.
+  \end{itemize}
+  
+  
+  \section{Controller}
+  \subsection{AnalisiChimicheController}
+  \subsection{ColateController}
+  \subsection{DictionaryController}
+  \subsection{OuptutColataController}
+  \subsection{RapportiDiLavoroController}
+  \subsection{SchedeOutputController}
+  \subsection{SettingsController}
+  \subsection{ShiftController}
+  \subsection{UserController}

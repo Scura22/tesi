@@ -1,0 +1,52 @@
+\documentclass[oneside]{book}
+
+\usepackage[italian]{babel}
+\usepackage{bm}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage[italiano, linesnumbered]{algorithm2e}
+\usepackage{graphicx}
+\usepackage{floatrow}
+\usepackage{listings}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[nottoc]{tocbibind}
+\usepackage{caption}
+\usepackage[utf8]{inputenc}
+
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+\renewcommand{\baselinestretch}{1.2}
+
+
+\addtolength{\skip\footins}{2pc plus 5pt}
+
+\captionsetup{justification=centering}
+
+\graphicspath{ {./images/} }
+
+\title{Tesi}
+\date{}
+\author{Luca Scurati}
+
+\begin{document}
+
+    \frontmatter
+
+    \input{chapters/dediche.tex}
+
+    \pagebreak
+
+    \tableofcontents
+    \listoffigures
+    \newpage
+    \mainmatter
+
+
+    \input{chapters/introduzione.tex}
+    \input{chapters/capitolo_1.tex}
+    \input{chapters/capitolo_2.tex}
+    \input{chapters/capitolo_3.tex}
+    \input{chapters/capitolo_4.tex}
+    \input{chapters/capitolo_5.tex}
+
+\end{document}

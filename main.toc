@@ -1,0 +1,151 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{Elenco delle figure}{iii}{}%
+\contentsline {chapter}{Introduzione}{1}{}%
+\contentsline {paragraph}{}{1}{}%
+\contentsline {chapter}{\numberline {1}Azienda e Requisiti}{3}{}%
+\contentsline {section}{\numberline {1.1}L'azienda}{3}{}%
+\contentsline {paragraph}{}{3}{}%
+\contentsline {subsection}{\numberline {1.1.1}Le attività dell'azienda}{4}{}%
+\contentsline {paragraph}{}{4}{}%
+\contentsline {subsubsection}{Progettazione}{4}{}%
+\contentsline {paragraph}{}{4}{}%
+\contentsline {subsubsection}{Automazione}{4}{}%
+\contentsline {paragraph}{}{4}{}%
+\contentsline {paragraph}{PLC}{4}{}%
+\contentsline {paragraph}{SCADA}{5}{}%
+\contentsline {subsubsection}{Web Application}{5}{}%
+\contentsline {paragraph}{}{5}{}%
+\contentsline {subsubsection}{Database}{5}{}%
+\contentsline {paragraph}{}{5}{}%
+\contentsline {subsubsection}{Trend e Report}{6}{}%
+\contentsline {paragraph}{}{6}{}%
+\contentsline {subsubsection}{Convalida}{6}{}%
+\contentsline {paragraph}{}{6}{}%
+\contentsline {paragraph}{GAMP}{6}{}%
+\contentsline {section}{\numberline {1.2}Analisi dei requisiti}{7}{}%
+\contentsline {subsection}{\numberline {1.2.1}Introduzione}{7}{}%
+\contentsline {subsection}{\numberline {1.2.2}Requisiti Funzionali}{8}{}%
+\contentsline {subsubsection}{Login}{8}{}%
+\contentsline {paragraph}{}{8}{}%
+\contentsline {subsubsection}{Visualizzazione dello Storico Colate}{8}{}%
+\contentsline {paragraph}{}{8}{}%
+\contentsline {subsubsection}{Visualizzazione delle informazioni delle colate}{9}{}%
+\contentsline {paragraph}{}{9}{}%
+\contentsline {paragraph}{Lega di riferimento}{9}{}%
+\contentsline {paragraph}{Output della colata}{9}{}%
+\contentsline {paragraph}{Materiali e materie prime}{9}{}%
+\contentsline {subsubsection}{Visualizzazione delle Schede Colaticci attuali}{10}{}%
+\contentsline {paragraph}{}{10}{}%
+\contentsline {subsubsection}{Visualizzazione delle Schede Colaticci chiuse}{11}{}%
+\contentsline {paragraph}{}{11}{}%
+\contentsline {subsubsection}{Visualizzazione dei Rapporti di Lavoro del Forno Fusorio}{12}{}%
+\contentsline {paragraph}{}{12}{}%
+\contentsline {paragraph}{Elenco carichi materiale}{12}{}%
+\contentsline {paragraph}{Elenco output colata}{13}{}%
+\contentsline {paragraph}{Elenco fermi}{13}{}%
+\contentsline {paragraph}{Elenco Anomalie}{13}{}%
+\contentsline {paragraph}{Elenco note turno}{13}{}%
+\contentsline {subsubsection}{Visualizzazione dei Rapporti di Lavoro dei Forni a Bacino}{14}{}%
+\contentsline {paragraph}{}{14}{}%
+\contentsline {paragraph}{Elenco carichi materiale}{14}{}%
+\contentsline {paragraph}{Elenco output colata}{15}{}%
+\contentsline {paragraph}{Elenco Anomalie}{15}{}%
+\contentsline {paragraph}{Elenco note turno}{15}{}%
+\contentsline {subsubsection}{Visualizzazione dei Rapporti di Lavoro del reparto Colata Continua}{15}{}%
+\contentsline {paragraph}{}{15}{}%
+\contentsline {paragraph}{Elenco Rallentamenti}{16}{}%
+\contentsline {paragraph}{Elenco Anomalie}{16}{}%
+\contentsline {paragraph}{Elenco fermi}{17}{}%
+\contentsline {paragraph}{Elenco note}{17}{}%
+\contentsline {subsubsection}{Visualizzazione dei Rapporti di Lavoro del reparto Magazzino Pani}{17}{}%
+\contentsline {paragraph}{}{17}{}%
+\contentsline {paragraph}{Elenco Pesatura Pacchi}{18}{}%
+\contentsline {paragraph}{Elenco fermi}{18}{}%
+\contentsline {paragraph}{Elenco Anomalie}{18}{}%
+\contentsline {paragraph}{Elenco note turno}{19}{}%
+\contentsline {subsubsection}{Visualizzazione delle Analisi Chimiche e calcolo delle correzioni}{19}{}%
+\contentsline {paragraph}{}{19}{}%
+\contentsline {paragraph}{Dettaglio Analisi}{19}{}%
+\contentsline {paragraph}{Elenco Proposte}{20}{}%
+\contentsline {paragraph}{Dettaglio Proposta}{20}{}%
+\contentsline {subsubsection}{Visualizzazione e gestione delle anagrafiche delle materie prime e degli elementi chimici}{20}{}%
+\contentsline {paragraph}{}{20}{}%
+\contentsline {subsubsection}{Visualizzazione, aggiunta e modifica delle anagrafiche generali dell’applicazione}{20}{}%
+\contentsline {paragraph}{}{20}{}%
+\contentsline {subsubsection}{Gestione delle security}{21}{}%
+\contentsline {paragraph}{}{21}{}%
+\contentsline {subsubsection}{Logout}{21}{}%
+\contentsline {paragraph}{}{21}{}%
+\contentsline {subsection}{\numberline {1.2.3}Requisiti Non Funzionali}{21}{}%
+\contentsline {subsubsection}{Durata della sessione}{21}{}%
+\contentsline {paragraph}{}{21}{}%
+\contentsline {subsubsection}{Storicizzazione dei dati}{21}{}%
+\contentsline {paragraph}{}{21}{}%
+\contentsline {subsubsection}{Aspetti sulla sicurezza}{21}{}%
+\contentsline {paragraph}{}{21}{}%
+\contentsline {subsection}{\numberline {1.2.4}Requisiti Di Dominio}{22}{}%
+\contentsline {subsubsection}{Accesso consentito a personale autorizzato}{22}{}%
+\contentsline {chapter}{\numberline {2}Strumenti e tecnologie}{23}{}%
+\contentsline {section}{\numberline {2.1}Tecnologie utilizzate}{23}{}%
+\contentsline {subsection}{\numberline {2.1.1}Web Application - Angular}{23}{}%
+\contentsline {subsubsection}{Web Application}{23}{}%
+\contentsline {subsubsection}{Angular}{24}{}%
+\contentsline {subsection}{\numberline {2.1.2}Linguaggi utilizzati}{24}{}%
+\contentsline {subsubsection}{HTML}{24}{}%
+\contentsline {subsubsection}{CSS}{25}{}%
+\contentsline {subsubsection}{TypeScript}{26}{}%
+\contentsline {subsubsection}{C\#}{27}{}%
+\contentsline {subsection}{\numberline {2.1.3}Database - Microsoft SQL Server}{27}{}%
+\contentsline {subsubsection}{Database}{27}{}%
+\contentsline {paragraph}{Database Relazionali}{27}{}%
+\contentsline {paragraph}{Database orientati agli oggetti}{27}{}%
+\contentsline {paragraph}{Database distribuiti}{28}{}%
+\contentsline {paragraph}{Data warehouse}{28}{}%
+\contentsline {paragraph}{Database NoSQL}{28}{}%
+\contentsline {paragraph}{Database grafici}{28}{}%
+\contentsline {paragraph}{Database OLTP}{28}{}%
+\contentsline {subsubsection}{SQL}{28}{}%
+\contentsline {paragraph}{Data Definition Language}{29}{}%
+\contentsline {paragraph}{Data Manipulation Language}{30}{}%
+\contentsline {paragraph}{Data Query Language}{30}{}%
+\contentsline {paragraph}{Data Control Language}{31}{}%
+\contentsline {subsubsection}{Microsoft SQL Server}{31}{}%
+\contentsline {section}{\numberline {2.2}Stumenti utilizzati}{32}{}%
+\contentsline {subsection}{\numberline {2.2.1}Microsoft Entity Framework Core}{32}{}%
+\contentsline {chapter}{\numberline {3}Implementazione}{34}{}%
+\contentsline {section}{\numberline {3.1}Modelli}{34}{}%
+\contentsline {subsection}{\numberline {3.1.1}AnalisiChimiche}{34}{}%
+\contentsline {subsection}{\numberline {3.1.2}Anomalie}{35}{}%
+\contentsline {subsection}{\numberline {3.1.3}Colate}{36}{}%
+\contentsline {subsection}{\numberline {3.1.4}Correzioni}{37}{}%
+\contentsline {subsection}{\numberline {3.1.5}Schede Output}{38}{}%
+\contentsline {subsection}{\numberline {3.1.6}Output Colata}{39}{}%
+\contentsline {subsection}{\numberline {3.1.7}Rapporti Lavoro}{40}{}%
+\contentsline {section}{\numberline {3.2}Controller}{41}{}%
+\contentsline {subsection}{\numberline {3.2.1}AnalisiChimicheController}{41}{}%
+\contentsline {subsection}{\numberline {3.2.2}ColateController}{41}{}%
+\contentsline {subsection}{\numberline {3.2.3}DictionaryController}{41}{}%
+\contentsline {subsection}{\numberline {3.2.4}OuptutColataController}{41}{}%
+\contentsline {subsection}{\numberline {3.2.5}RapportiDiLavoroController}{41}{}%
+\contentsline {subsection}{\numberline {3.2.6}SchedeOutputController}{41}{}%
+\contentsline {subsection}{\numberline {3.2.7}SettingsController}{41}{}%
+\contentsline {subsection}{\numberline {3.2.8}ShiftController}{41}{}%
+\contentsline {subsection}{\numberline {3.2.9}UserController}{41}{}%
+\contentsline {chapter}{\numberline {4}Interfaccia}{42}{}%
+\contentsline {section}{\numberline {4.1}Login}{42}{}%
+\contentsline {section}{\numberline {4.2}Storico Colate}{42}{}%
+\contentsline {section}{\numberline {4.3}Schede Colaticci}{42}{}%
+\contentsline {section}{\numberline {4.4}Rapporti Di Lavoro Forno Fusorio}{42}{}%
+\contentsline {section}{\numberline {4.5}Rapporti Di Lavoro Forni a Bacino}{42}{}%
+\contentsline {section}{\numberline {4.6}Rapporti Di Lavoro Colata Continua}{42}{}%
+\contentsline {section}{\numberline {4.7}Rapporti Di Lavoro Magazzino Pani}{42}{}%
+\contentsline {section}{\numberline {4.8}Analisi Chimiche}{42}{}%
+\contentsline {section}{\numberline {4.9}Materie e Elementi Chimici}{42}{}%
+\contentsline {section}{\numberline {4.10}Gestione Dizionari}{42}{}%
+\contentsline {section}{\numberline {4.11}Secuirity}{42}{}%
+\contentsline {chapter}{\numberline {5}Sviluppi futuri e conclusione}{43}{}%
+\contentsline {section}{\numberline {5.1}Sviluppi futuri}{43}{}%
+\contentsline {subsection}{\numberline {5.1.1}Analisi Metallografiche}{43}{}%
+\contentsline {subsection}{\numberline {5.1.2}Gestione carichi magazzino}{43}{}%
+\contentsline {section}{\numberline {5.2}Conclusioni}{43}{}%

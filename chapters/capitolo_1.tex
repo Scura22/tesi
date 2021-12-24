@@ -1,0 +1,607 @@
+\chapter{Azienda e Requisiti}
+  \label{chapter_azienda_requisiti}
+  \section{L'azienda}
+  \paragraph{}
+  Come già anticipato nel capitolo precedente, lo stage è stato svolto presso l'azienda Adipso S.r.l..\\
+  Adipso S.r.l. nasce dalla società Adding S.r.l. la quale, fin dal 2004 si pone l'obiettivo di inserirsi nel
+  mondo degli Integratori di sistemi di automazione e gestione di produzione industriale e fornire
+  a questo settore tutta la propria competenza, esperienza e professionalità in ambito di sviluppo e progettazione
+  software in ambito industriale.\\
+  Adipso propone soluzioni tecniche complete aggiornate ai più recenti strumenti dell'informatica
+  ma con particolare attenzione alla stabilità, alla scalabilità e alla robustezza del sistema. Infatti, 
+  il punto di forza della società è l'essere un team di professionisti aggiornati alle più recenti tecnologie 
+  informatiche e sistemistiche e con esperienza nell'ambito dell'automazione industriale, della gestione 
+  della produzione e dello sviluppo software di integrazione tra sistemi e macchine.\\
+  L'obiettivo è quindi quello del successo dei progetti dei clienti e di implemenare la migliore soluzione 
+  in base alle esigenze tecniche, gestionali, economiche e strategiche del clienti.\\
+  Le aree applicative di Adipso variano dalle industrie farmaceutiche a quelle chimiche, dal settore metallurgico 
+  a quello dei prodotti personali e da società di ingegneria a quelle di produzione di materie plastiche.
+  \subsection{Le attività dell'azienda}
+  \paragraph{}
+  All'interno dei prossimi paragrafi verranno descritte brevemente le principali attività svolte
+  dall'azienda, realizzate sempre con un occhio di riguardo alle esigenze del cliente.
+  \subsubsection{Progettazione}
+  \paragraph{}
+  Per quanto riguarda l'attivià di progettazione, Adipso si occupa di progettare e realizzare impianti 
+  elettro-pneumatici e quadri elettrici di potenza e di automazione, oltre che alla fornitura della
+  strumentazione di campo e alla stesura dei documenti di progetto, quali la Funcional Specification (Specifica 
+  Funzionale, FS), l'Hardware Design Specification (Specifica di disegno Hardware, HDS), la Software Design 
+  Specification (Specifica di disegno Software, SDS) e il manuale operatore generale per il sistema, oltre che 
+  a tutti i relativi allegati.  
+  \subsubsection{Automazione}
+  \paragraph{}
+  Per quanto riguarda l'automazione invece, Adipso si occupa di sviluppare sistemi software di automazione e ingegneria 
+  per quadri elettrici, o sistemi software di supervisione. Inoltre si occupa dell'integrazione o del 
+  revamping (ammodernamento) di sistemi esistenti e della loro manutenzione. Le principali tecnologie usate 
+  in questo ambito sono i \textbf{PLC} (programmable logic controller), gli storicizzatori come Proficy Historian, e 
+  gli \textbf{SCADA} (Supervisory Control And Data Acquisition).
+  \paragraph{PLC}
+  I PLC solitamente vengono utilizzati in industrie per la gestione o per il controllo dei processi industriali.
+  I compiti svolti da un PLC quindi vanno dal realizzare semplici sequenze di operazioni al controllo delle 
+  movimentazioni alla realizzazione di sofisticati sistemi di controllo distribuiti, che prevendono più PLC 
+  che collaborano tra di loro.
+  La struttura dei PLC è simile a quella dei normali PC. Sono quindi composti da un alimentatore, una CPU, da 
+  memorie interne o esterne, come RAM e ROM. La più grande differenza con i PC normali consiste nel fatto che i PLC 
+  dispongono anche di schede di ingresso e uscita digitali e, all'occorrenza, analogiche, utilizzate per il controllo 
+  di grandezze. Inoltre i PLC possono disporre anche di schede di comunicazione per comunicare con computer o con altri PLC.\\
+  Per funzionare al meglio i PLC devono essere programmati. La programmazione di un PLC avviene con un PC sul quale 
+  un software specializzato permette di creare programmi per la gestione industriale che verranno poi caricati sulla CPU del PLC. 
+  \paragraph{SCADA}
+  Supervisory Control And Data Acquisition, o SCADA, indica un sistema informatico distribuito 
+  per il monitoraggio e la supervisione di sistemi fisici. Solitamente uno SCADA è un software installato su normali computer 
+  o server che permette il funzionamento e la gestione di sistemi di supervisione senza necessariamente scrive codice 
+  tramite linguaggi di programmazione, punto di maggiore importanza dato che coloro che realizzano i sistemi SCADA spesso 
+  sono tecnici e non informatici o programmatori. Gli SCADA generalmente sono utilizzati nelle centrali di controllo di fabbriche, 
+  aereoporti o grandi complessi di edifici.\\
+  Gli SCADA vengono utilizzati come interfaccia verso operatori o altri sistemi. Le più importanti funzioni di uno SCADA 
+  sono l'acquisizione dei dati mediante opportuni driver di comunicazione verso gli apparati in campo, tra i quali 
+  i già citati PLC, a loro volta connessi a sensori o attuatori, la rappresentazione del dato sullo schermo di un PC o di 
+  uno smartphone, la storicizzazione del dato stesso su archivi locali o distibuiti, la gestione degli allarmi, che consente 
+  di visualizzare eventuali problemi all'impianto e eventualmente di avvisare il responsabile con una chiamata, una mail o più 
+  generalmente con il suono di una sirena per avvisare tutto il reparto dell'anomalia. L'ultima funzionalità e forse la più 
+  richiesta nell'ultimo periodo è quella dell'interazione con sistemi di livello superiore, ovvero fare in modo che lo 
+  SCADA faccia da interfaccia tra il sistema fisico e sistemi di livello superiore come un sistema MES o una web application 
+  che consente la gestione dell'impianto con più facilità.
+  \subsubsection{Web Application}
+  \paragraph{}
+  Lo sviluppo di Web Application è l'attività principale svolta durante il project work e consiste nello 
+  sviluppo di applicazioni web dedicate a partire dalle specifiche esigenze del cliente, definite durante la 
+  fase dell'analisi dei requisiti. Le principali tecnologie utilizzate per lo sviluppo di web application sono 
+  HTML 5, Angular 8, .NET Core, e altre. Queste tecnologie verranno descritte nel dettaglio nei prossimi capitoli.
+  \subsubsection{Database}
+  \paragraph{}
+  Lo sviluppo di Web Application in parte consiste anche nella relazizzazione di database per la storicizzazione 
+  dei dati. Nell'attivita relativa ai database vengono studiate le problematiche di gestione dei dati 
+  nei sistemi informativi e proposte soluzioni le quali tengano conto delle tecniche di progetto e
+  delle tecnologie di gestione dei dati. I principali database utilizzati sono Microsoft SQL Server, utilizzato 
+  durate il project work e che verrà descritto nel dettaglio nei prossimi capitoli, e Oracle.
+  \subsubsection{Trend e Report}
+  \paragraph{}
+  Nello sviluppo di applicativi software o web application, a volte nelle richieste del cliente è compresa 
+  anche la possibilità di visualizzare e/o stampare reportistica contenente i dati storicizzati. Per questo 
+  Adipso si occupa anche della parte relativa a trend e report, ovvero dell'analisi dei dati e della 
+  generazione di reportistica manuale e/o automatizzata in base alle richieste dei clienti. I principali 
+  strumenti di reportistica utilizzati sono Crystal Reports e Micrisoft Reporting Service.
+  \subsubsection{Convalida}
+  \paragraph{}
+  L'ultima attività è quella di convalida. La convalida viene spesso richiesta dai clienti, soprattutto 
+  quelli che operano in ambito farmaceutico, e consiste nella redazione, revisione e approvazione 
+  della documentazione di progetto, secondo il ciclo di vita conforme alla normativa GAMP5, descritta di seguito. 
+  I documenti in questione comprendono non solo quelli descritti nell'attività di progettazione ma anche altri,
+  come il piano dei test, che comprende la descrizione dell'ambiente di test, la strategie e la metodologia dei test, 
+  i test di modulo eseguiti per gli oggetti standard utilizzati sia a livello PLC che a livello SCADA e i 
+  verbali di rilascio e i certificati di installazione hardware e software, che certifica tutto quello che 
+  è stato installato
+  \paragraph{GAMP}
+  Ormai nell'ambito sanitario è richiesta sempre più spesso la convalida dei sistemi informatici. Questa 
+  convalida consiste nell'attestazione delle capacità di un sistema di funzionare efficacemente e in modo 
+  riproduzibile fornendo prestazioni e risultati conformi a standard predefiniti. Tutto questo viene conseguito 
+  tramite la produzione di evidenze oggettive.
+  La Good Automated Manufactured Practice (GAMP) fornisce un aiuto nell'ambito della convalida dei sistemi informatici. 
+  Gli obiettivi della guida GAMP sono quelli di facilitare l'interpretazione dei requisiti normativi, 
+  stabilire un linguaggio e una terminologia comune e promuovere un approccio del ciclo di vita del sistema 
+  basato sulle buone pratiche. GAMP non è una vera e propria norma, ma fornisce una guida che, se applicata 
+  con buon senso, diventa un buon aiuto per la convalida. 
+  Il metodo GAMP si basa su diversi concetti chiave, tra i quali ci sono la conoscenza del prodotto e dei processi e 
+  il coinvolgimento dei fornitori.
+
+
+
+  \section{Analisi dei requisiti}
+  \subsection{Introduzione}
+  Un requisito è una descrizione dei servizi che un sistema software deve fornire e i vincoli 
+  da rispettare, sia in fase di sviluppo che durante la fase di operatività del software stesso. 
+  L'analisi dei requisiti è la prima fase del processo di sviluppo di un software, in quanto ha lo scopo di 
+  definire le funzionalità che il prodotto finale deve offrire. L'analisi dei requisiti quindi non è altro che 
+  il processo di ricerca, analisi, documentazione e verifica dei servizi richiesti dal cliente e dei vincoli entro 
+  i quali i servizi stessi devono operare.\\
+  I requisiti si dividono in requisiti utente e requisiti di sistema. I requisiti utente sono la descrizione 
+  in linguaggio naturale, con eventuale aggiunta di diagrammi e tabelle, dei servizi che il sistema deve fornire e 
+  dei vincoli operativi. Solitamente i requisiti utente sono scritti per e con il cliente. Invece i requisiti di sistema 
+  sono specificati mediante la stesura di un documento strutturato che descrive in modo dettagliato i servizi che il 
+  sistema software deve fornire. Infatti definiscono cosa deve essere implementato e può essere usato come 
+  base per il progetto. Un'altra possibile classificazione divide i requisiti in requisiti funzionali, non funzionali e di dominio. 
+  Questi requisiti verranno descritti nei prossimi paragrafi, insieme ai requisiti della web application \textit{Rapporti di Lavoro}.\\
+  Durante la fase di analisi dei requisiti possono sorgere diverse problematiche, come requisiti che possono essere 
+  interpretati in modo differente (Ambiguità), requisiti che non includono la descrizione di tutte le caratteristiche richieste (Incompletezza) e 
+  conflitti o contraddizioni nella descrizione delle caratteristiche del sistema (Inconsistenza). Spesso questi problemi 
+  non sono risolvibili dato che, per esempio, è impossibile produrre un documento che contenta tutti i requisiti nella loro completezza, e 
+  spesso i requisiti vanno in conflitto tra di loro.\\
+  Nei paragrafi successivi verranno descritti i requisiti della web application \textit{Rapporti di Lavoro}, che viene utilizzata 
+  come applicazione di gestione e visualizzazione dei rapporti di lavoro di un impianto dedicato alla 
+  produzione di leghe in alluminio in colata continua, partendo da una materia prima riciclata, che viene introdotta nel forno fusorio, 
+  nel quale viene sciolta e lavorata. Terminata la lavorazione nel forso fusorio, questa colata viene sversata in modo alternato in due forni 
+  a bacino, nei quali vengono eseguite altre lavorazioni, come la pulizia del materiale e la correzione con altri materiali correttivi. Dopodichè 
+  la colata viene sversata da entrambi i forni a bacino in modo alternato nel reparto di colata continua, nel quale vengono creati dei pani, ovvero dei 
+  blocchi costituiti dal materiale in lavorazione. Una volta terminata la lavorazione di questi pani, essi vengono conservati nel reparto Magazzino Pani. 
+
+  \subsection{Requisiti Funzionali}
+  I requisiti funzionali descrivono le funzionalità e i servizi del sistema. Rispondono quindi alla domanda: 
+  \textit{cosa deve essere fatto?}. Di seguito vengono riportati i requisiti funzionali della web application \textit{Rapporti di Lavoro}.
+  
+  \subsubsection{Login}
+  \paragraph{}
+  La funzionalità di login permette all’utente di autenticarsi utilizzando le proprie credenziali 
+  di dominio. Infatti la pagina di login consente di inserire nome utente e password. Una volta inseriti 
+  dall’utente, il sistema verifica la correttezza delle credenziali inserite confrontandole con le 
+  credenziali di dominio dell’utente stesso. Se i dati inseriti risultano corretti, l’utente viene 
+  autenticato e può utilizzare la web application, altrimenti viene segnalato all’utente l’errore 
+  e viene mostrata di nuovo la schermata di login. Questa fase di login può essere bypassata se 
+  l’utente avvia la web application tramite il software di supervisione SCADA, dato che l’utente 
+  che utilizza il software di supervisione ha già effettuato il login.
+
+  \subsubsection{Visualizzazione dello Storico Colate}
+  \paragraph{}
+  La funzionalità di visualizzazione dello storico colate consente di visualizzare l’elenco 
+  delle colate registrate nel sistema, sia quelle base, ovvero quelle relative al forno fusorio, 
+  sia quelle specifiche, ovvero quelle relative agli altri reparti dell’impianto.\\
+  La pagina di visualizzazione dell’elenco delle colate sarà divisa in due sezioni orizzontali, 
+  la prima contenente l’elenco delle colate base, la seconda contenente l’elenco delle colate specifiche. 
+  Per entrambe le colate vengono visualizzate le seguenti informazioni: 
+  \begin{itemize}
+    \item Numero della colata;
+    \item Data e ora di inizio della colata;
+    \item Data e ora in cui la colata è dichiarata come pronta;
+    \item Data e ora di fine della colata;
+    \item Operatore che ha dichiarato la colata come pronta;
+    \item Operatore che ha dichiarato la colata come conclusa;
+    \item Stato della colata;
+    \item Quantità di 02 consumata;
+    \item Quantità di CH4 consumata.
+  \end{itemize}
+  Oltre alle informazioni elencate in precedenza, per le colate specifiche vengono visualizzate 
+  anche le seguenti informazioni:
+  \begin{itemize}
+    \item Numero della colata progressivo;
+    \item Destinazione della colata, ovvero verso quale forno a bacino viene indirizzata la colata;
+    \item Peso totale della colata.
+  \end{itemize}
+  All’interno di questa pagina è inoltre presente un filtro che consente di visualizzare solo le colate 
+  all'interno di un determinato range temporale.
+
+  \subsubsection{Visualizzazione delle informazioni delle colate}
+  \paragraph{}
+  Per ogni colata è possibile visualizzare le relative informazioni dettagliate, oltre a quelle già 
+  elencate nel paragrafo precedente. Le informazioni in questione vengono descritte di seguito:
+  \paragraph{Lega di riferimento}
+  Per quanto riguarda la lega di riferimento vengono visualizzate informazioni sulla lega che deve 
+  essere prodotta dalla colata di riferimento, tra cui il nome, il cliente e eventuali note.
+  \paragraph{Output della colata}
+  Per quanto riguarda gli output della colata vengono visualizzate le informazioni sugli output prodotti 
+  dalla colata di riferimento. Gli output della colata saranno approfonditi successivamente.
+  \paragraph{Materiali e materie prime}
+  Per quanto riguarda i materiali e le materie prime viene visualizzato un elenco dei vari materiali 
+  che sono stati caricati nel corso della colata per mantenere gli standard produttivi e, per ogni 
+  materiale, la materia prima di riferimento, con relative informazioni come codice, nome, 
+  descrizione e la percentuale di metallo.
+
+  \subsubsection{Visualizzazione delle Schede Colaticci attuali}
+  \paragraph{}
+  La funzionalità di visualizzazione delle schede colaticci attuali consente di visualizzare l’elenco 
+  di queste schede attualmente aperte e le relative informazioni. Le schede colaticci sono 
+  l’equivalente virtuale di un contenitore che contiene tutti gli output derivanti dalle colate in corso. 
+  E’ presente una scheda colaticci per ogni contenitore, e, solitamente, un contenitore per ogni forno. 
+  Anche in questo caso, come per le colate, è possibile visualizzare sia le schede relative al forno fusorio, 
+  quindi alle colate base, che quelle relative ai forni a bacino, quindi alle colate specifiche.\\
+  Le informazioni visualizzate sono le seguenti:
+  \begin{itemize}
+    \item Numero della scheda;
+    \item Data di apertura della scheda;
+    \item Operatore che ha aperto la scheda;
+    \item Contenitore di riferimento;
+    \item Peso totale degli output presenti nel contenitore, in tonnellate;
+    \item Elenco degli output contenuti nel contenitore di riferimento, con possibilità di aggiunta, modifica e spostamento.
+  \end{itemize}
+  A ogni output sono collegate le seguenti informazioni:
+  \begin{itemize}
+    \item Numero colata che ha generato l’output di riferimento;
+    \item Lega di riferimento;
+    \item Tipo di output;
+    \item Quantità totale generata, in tonnellate;
+    \item Data di inizio della colata relativa;
+    \item Data di dichiarazione dell’output;
+    \item Data di scorifica, ovvero la data nella quale sono state rimosse le scorie dalla lega in produzione;
+    \item Settimana relativa, calcolata in base alla data di scorifica;
+    \item Qualità dell’output;
+    \item Operatore che ha inserito l’output;
+    \item Provenienza dell’output;
+    \item Numero di casse prodotte;
+    \item Eventuali Note.    
+  \end{itemize}
+  In ogni scheda è possibile aggiungere nuovi output con le informazioni descritte sopra, modificare 
+  la quantità e la data di scorifica per ogni output e spostare un output in un’altra scheda relativa 
+  allo stesso forno. Inoltre queste schede possono essere chiuse. Una volta chiusa una scheda per un 
+  determinato contenitore, viene automaticamente creata una nuova scheda per lo stesso contenitore. 
+
+  \subsubsection{Visualizzazione delle Schede Colaticci chiuse}
+  \paragraph{}
+  La funzionalità di visualizzazione delle schede colaticci chiuse consente di visualizzare l’elenco 
+  di queste schede chiuse e le relative informazioni. Anche in questo caso, come per le schede 
+  attuali, è possibile visualizzare sia le schede relative al forno fusorio, quindi alle colate base, 
+  che quelle relative ai forni a bacino, quindi alle colate specifiche.\\
+  Le schede possono essere filtrate temporalmente per visualizzare solo quelle relative 
+  a un determinato range temporale, oppure può essere cercata una singola scheda con il relativo numero.\\
+  Le informazioni visualizzate per le schede chiuse sono le seguenti:
+  \begin{itemize}
+    \item Numero della scheda;
+    \item Contenitore di riferimento
+    \item Stato della scheda, che può essere spedito, se la scheda è stata chiusa, o campionato, 
+    se la scheda è stata chiusa e sono stati inseriti i dati di spedizione;
+    \item Progressivo del camion utilizzato per spedire la scheda;
+    \item Il numero del documento di trasporto, o DDT;
+    \item Data di apertura della scheda;
+    \item Operatore che ha aperto la scheda;
+    \item Data di spedizione della scheda;
+    \item Operatore che ha spedito la scheda;
+    \item Data di associazione della scheda, ovvero data di inserimento delle informazioni di spedizione;
+    \item Operatore che ha associato la scheda;
+    \item Peso totale degli output presenti nel contenitore, in tonnellate;
+    \item Elenco degli output contenuti nel contenitore di riferimento, con possibilità di modifica e 
+    spostamento.    
+  \end{itemize}
+  Sarà possibile quindi, oltre che a modificare e spostare ogni singolo output, associare il numero 
+  progressivo del camion e relativo numero di DDT a ogni scheda.  
+  
+  \subsubsection{Visualizzazione dei Rapporti di Lavoro del Forno Fusorio}
+  \paragraph{}
+  La funzionalità di visualizzazione dei rapporti di lavoro del forno fusorio consente di visualizzare 
+  le informazioni relative alle operazioni effettuate nel reparto forno fusorio. Le informazioni sono 
+  organizzate per turno e di default vengono visualizzati i dati inseriti dall’inizio del turno 
+  precedente fino ad adesso, ma la data iniziale può essere modificata per visualizzare le informazioni 
+  più datate. Tutti i dati visualizzati in questa pagina quindi sono filtrati per range temporale.\\
+  All’interno del rapporto di lavoro del forno fusorio vengono visualizzate le seguenti informazioni:
+  \begin{itemize}
+    \item Informazioni sul turno attuale, come data di inizio, data di fine e numero del turno;
+    \item Informazioni sulla colata in corso, come numero della colata, lega di riferimento e data e ora 
+    di inizio
+  \end{itemize}
+  Oltre a queste informazioni vengono visualizzati anche degli elenchi, descritti successivamente. 
+  Per ogni elenco è possibile visualizzare i dati e aggiungerne di nuovi.
+  \paragraph{Elenco carichi materiale}
+  In questo elenco vengono visualizzati i materiali che devono essere caricati nella colata e 
+  tutte le cariche effettuate nel range temporale selezionato, divise per materiale. 
+  Una carica può essere aggiunta, rimossa e eliminata. Inoltre è possibile modificare la percentuale 
+  di organico di una singola carica o di più cariche in blocco.
+
+  \paragraph{Elenco output colata}
+  In questo elenco vengono visualizzate le registrazione degli output collegati alla colata in corso 
+  effettuate nel range temporale selezionato. Le informazioni visualizzate sono le stesse elencate 
+  nella descrizione delle schede colaticci. E' possibile aggiungere un ouput colata direttamente dal 
+  rapporto di lavoro.
+  
+  \paragraph{Elenco fermi}
+  In questo elenco vengono visualizzati i fermi impianto che si sono verificati nel range temporale selezionato 
+  e tutti quei fermi che non sono stati giustificati. E' possibile filtrare i fermi per fermi giustificati 
+  o non giustificati, oppure è possibile visualizzarli tutti. Le informazioni visualizzate per i fermi 
+  sono le seguenti:
+  \begin{itemize}
+    \item Data e ora inizio e fine;
+    \item Durata;
+    \item Descrizione dei cinque perchè e dell’azione.
+  \end{itemize}
+  La giustificazione di un fermo avviene tramite una struttura detta dei cinque perchè. 
+  \textit{Cinque Perchè} è un metodo che consente di esplorare le relazioni causa-effetto per un problema ponendosi una 
+  semplice domanda. Lo scopo di questo metodo è quello di determinare le cause del difetto. In particolare, nei 
+  rapporti di lavoro viene utilizzato per stabilire le motivazioni di un fermo e, in aggiunta, viene anche richiesta 
+  l'azione correttiva per la risoluzione delle problematiche che hanno portato al fermo impianto.
+
+  \paragraph{Elenco Anomalie}
+  In questo elenco vengono visualizzate le anomalie che si sono verificate nel range temporale selezionato.
+  Le informazioni visualizzate sono le seguenti:
+  \begin{itemize}
+    \item Data;
+    \item Operatore;
+    \item Tipo Anomalia;
+    \item Descrizione dell'anomalia.
+  \end{itemize} 
+  
+  \paragraph{Elenco note turno}
+  Questo elenco è diviso in due parti: l'elenco delle note relative al turno corrente e quelle relative al 
+  turno precedente. Negli elenchi sono visualizzate le note inserite nel turno corrente e quelle inserite 
+  in un range temporale che va dalla data di inizio selezionata e la fine del turno precedente. 
+  Le informazioni visualizzate sono le seguenti:
+  \begin{itemize}
+    \item Data;
+    \item Operatore;
+    \item Descrizione.
+  \end{itemize}   
+
+  \subsubsection{Visualizzazione dei Rapporti di Lavoro dei Forni a Bacino}
+  \paragraph{}
+  La funzionalità di visualizzazione dei rapporti di lavoro dei forni a bacino consente di visualizzare 
+  le informazioni relative alle operazioni effettuate nel reparto dei forni a bacino. Le informazioni sono 
+  organizzate per numero di colata specifica e di default vengono visualizzati i dati relativi alla colata in corso e al primo 
+  forno bacino. ma la colata può essere selezionata da un menù a tendina che contiene tutte le colate ordinate 
+  dalla più recente alla più datata e il forno può essere selezionato tra tutti i forni a bacino presenti in 
+  impianto. Tutti i dati visualizzati in questa pagina quindi sono filtrati in base al numero colata selezionato.\\
+  All’interno del rapporto di lavoro dei forni a bacino vengono visualizzate le seguenti informazioni:
+  \begin{itemize}
+    \item Informazioni sul turno attuale, come data di inizio, data di fine e numero del turno;
+    \item Informazioni sulla colata selezionata, come numero della colata, lega di riferimento e data e ora 
+    di inizio. Nel caso in cui la colata fosse chiusa vengono visualizzate anche la data e l'ora di fine.
+  \end{itemize}
+  Oltre a queste informazioni vengono visualizzati anche degli elenchi, descritti successivamente. 
+  Per ogni elenco è possibile visualizzare i dati e aggiungerne di nuovi.
+  \paragraph{Elenco carichi materiale}
+  In questo elenco vengono visualizzati i materiali che devono essere caricati nella colata e 
+  tutte le cariche effettuate divise per materiale. I materiali da caricare corrispondono ai correttivi 
+  selezionati nella fase di calcolo di correzione delle analisi chimiche. Quando una proposta di correzione 
+  viene accettata, questo elenco viene compilato con i materiali da caricare e la relativa quantità. 
+  Una carica può essere aggiunta, rimossa e eliminata. Inoltre è possibile modificare la percentuale 
+  di organico di una singola carica o di più cariche in blocco. Oltre ai materiali pianificati, possono 
+  essere aggiunti nuovi materiali non pianificati, con quantità da caricare prevista uguale a 0.
+
+  \paragraph{Elenco output colata}
+  In questo elenco vengono visualizzate le registrazione degli output collegati alla colata selezionata. 
+  Le informazioni visualizzate sono le stesse elencate 
+  nella descrizione delle schede colaticci. E' possibile aggiungere un ouput colata direttamente dal 
+  rapporto di lavoro.
+  
+  \paragraph{Elenco Anomalie}
+  In questo elenco vengono visualizzate le anomalie che si sono verificate durante la lavorazione della colata 
+  selezionata. Le informazioni visualizzate sono le seguenti:
+  \begin{itemize}
+    \item Data;
+    \item Operatore;
+    \item Tipo Anomalia;
+    \item Descrizione dell'anomalia.
+  \end{itemize} 
+  
+  \paragraph{Elenco note turno}
+  Questo elenco è diviso in due parti: l'elenco delle note relative al turno corrente e quelle relative al 
+  turno precedente. Negli elenchi sono visualizzate le note inserite nel turno corrente e quelle inserite 
+  in un range temporale che va dalla data di inizio alla data di fine del turno precedente. 
+  Le informazioni visualizzate sono le seguenti:
+  \begin{itemize}
+    \item Data;
+    \item Operatore;
+    \item Descrizione.
+  \end{itemize}   
+
+  \subsubsection{Visualizzazione dei Rapporti di Lavoro del reparto Colata Continua}
+  \paragraph{}
+  La funzionalità di visualizzazione dei rapporti di lavoro della colata continua consente di visualizzare 
+  le informazioni relative alle operazioni effettuate nel reparto di colata continua. Le informazioni sono 
+  organizzate per numero di colata e di default vengono visualizzati i dati relativi all'ultima colata specifica che è 
+  stata chiusa, ma la colata può essere selezionata da un menù a tendina a che contiene tutte le colate chiuse ordinata 
+  dalla più recente alla più datata. Tutti i dati visualizzati in questa pagina quindi sono filtrati in base al numero colata selezionato.\\
+  All’interno del rapporto di lavoro della colata continua vengono visualizzate le seguenti informazioni:
+  \begin{itemize}
+    \item Informazioni sul turno attuale, come data di inizio, data di fine e numero del turno;
+    \item Informazioni sulla colata selezionata, come numero della colata, lega di riferimento, data e ora 
+    di inizio e di fine e durata totale;
+    \item Temperatura attuale del bacino;
+    \item Grafico con storico della temperatura del crogiolo;
+    \item Tempi di funzionamento dei macchinari in impianto.
+  \end{itemize}
+  Oltre a queste informazioni vengono visualizzati anche degli elenchi, descritti successivamente. 
+  Per ogni elenco è possibile visualizzare i dati e aggiungerne di nuovi. Ogni elemento di questi elenchi 
+  avrà un colore diverso in base alla macchina di riferimento, in modo da identificare subito la macchina.
+  
+  \paragraph{Elenco Rallentamenti}
+  In questo elenco vengono visualizzati i rallentamenti che si sono verificati durante la lavorazione della colata 
+  selezionata. Le informazioni visualizzate sono le seguenti:
+  \begin{itemize}
+    \item Macchina sulla quale si è verificato il rallentamento;
+    \item Data di inizio e di fine;
+    \item Operatore;
+    \item Causa del rallentamento.
+  \end{itemize} 
+
+  \paragraph{Elenco Anomalie}
+  In questo elenco vengono visualizzate le anomalie che si sono verificate durante la lavorazione della colata 
+  selezionata. Le informazioni visualizzate sono le seguenti:
+  \begin{itemize}
+    \item Macchina sulla quale si è verificata l'anomalia;
+    \item Data;
+    \item Operatore;
+    \item Tipo Anomalia;
+    \item Descrizione dell'anomalia.
+  \end{itemize} 
+  
+  
+  \paragraph{Elenco fermi}
+  In questo elenco vengono visualizzati i fermi impianto che si sono verificati durante la lavorazione della colata selezionata e 
+  tutti quei fermi che non sono stati giustificati. E' possibile filtrare i fermi per fermi giustificati 
+  o non giustificati, oppure è possibile visualizzarli tutti. Le informazioni visualizzate per i fermi 
+  sono le seguenti:
+  \begin{itemize}
+    \item Macchina sulla quale si è verificato il fermo;
+    \item Data e ora inizio e fine;
+    \item Durata;
+    \item Descrizione dei cinque perchè e dell’azione.
+  \end{itemize}
+  La giustificazione di un fermo avviene tramite una struttura detta dei cinque perchè.
+    
+  \paragraph{Elenco note}
+  Questo elenco è diviso in due parti: l'elenco delle note relative alla colata selezionata e quelle relative alle 
+  dieci colate precedenti. Negli elenchi sono visualizzate le note inserite durante la lavorazione della colata corrente 
+  e quelle inserite durante la lavorazione delle dieci colate precedenti a quella selezionata 
+  Le informazioni visualizzate sono le seguenti:
+  \begin{itemize}
+    \item Numero della colata;
+    \item Data;
+    \item Operatore;
+    \item Descrizione.
+  \end{itemize}   
+
+  \subsubsection{Visualizzazione dei Rapporti di Lavoro del reparto Magazzino Pani}
+  \paragraph{}
+  La funzionalità di visualizzazione dei rapporti di lavoro del magazzino pani consente di visualizzare 
+  le informazioni relative alle operazioni effettuate nel reparto magazzino pani. Le informazioni sono 
+  organizzate per numero di colata e di default vengono visualizzati i dati relativi all'ultima colata specifica che è 
+  stata chiusa, ma la colata può essere selezionata da un menù a tendina a che contiene tutte le colate chiuse ordinata 
+  dalla più recente alla più datata. Tutti i dati visualizzati in questa pagina quindi sono filtrati in base al numero colata selezionato.\\
+  All’interno del rapporto di lavoro della colata continua vengono visualizzate le seguenti informazioni:
+  \begin{itemize}
+    \item Informazioni sul turno attuale, come data di inizio, data di fine e numero del turno;
+    \item Informazioni sulla colata selezionata, come numero della colata, lega di riferimento, data e ora 
+    di inizio e di fine e durata totale.
+  \end{itemize}
+  Oltre a queste informazioni vengono visualizzati anche degli elenchi, descritti successivamente. 
+  Per ogni elenco è possibile visualizzare i dati e aggiungerne di nuovi.
+    
+  \paragraph{Elenco Pesatura Pacchi}
+  In questo elenco vengono visualizzate le quantità dei pani che arrivano dal reparto di colata continua, 
+  suddivisa per pani corti e lunghi e per calcolo automatico e manuale, con anche il totale numero di pani 
+  immagazzinati.
+
+  \paragraph{Elenco fermi}
+  In questo elenco vengono visualizzati i fermi impianto che si sono verificati durante la lavorazione della colata selezionata e 
+  tutti quei fermi che non sono stati giustificati. E' possibile filtrare i fermi per fermi giustificati 
+  o non giustificati, oppure è possibile visualizzarli tutti. Le informazioni visualizzate per i fermi 
+  sono le seguenti:
+  \begin{itemize}
+    \item Macchina sulla quale si è verificato il fermo;
+    \item Data e ora inizio e fine;
+    \item Durata;
+    \item Descrizione dei cinque perchè e dell’azione.
+  \end{itemize}
+  La giustificazione di un fermo avviene tramite una struttura detta dei cinque perchè.
+
+
+  \paragraph{Elenco Anomalie}
+  In questo elenco vengono visualizzate le anomalie che si sono verificate durante la lavorazione della colata 
+  selezionata. Le informazioni visualizzate sono le seguenti:
+  \begin{itemize}
+    \item Data;
+    \item Operatore;
+    \item Tipo Anomalia;
+    \item Descrizione dell'anomalia.
+  \end{itemize} 
+  
+  \paragraph{Elenco note turno}
+  Questo elenco è diviso in due parti: l'elenco delle note relative al turno corrente e quelle relative al 
+  turno precedente. Negli elenchi sono visualizzate le note inserite nel turno corrente e quelle inserite 
+  in un range temporale che va dalla data di inizio alla data di fine del turno precedente. 
+  Le informazioni visualizzate sono le seguenti:
+  \begin{itemize}
+    \item Data;
+    \item Operatore;
+    \item Descrizione.
+  \end{itemize}   
+
+  \subsubsection{Visualizzazione delle Analisi Chimiche e calcolo delle correzioni}
+  \paragraph{}
+  Questa funzionalità permette di visualizzare l’elenco delle analisi chimiche che vengono svolte per 
+  il forno fusorio e per i forni a bacino. Le analisi chimiche vengono utilizzate per ottenere la 
+  composizione della colata analizzata. La composizione ottenuta consiste nell’elenco degli elementi 
+  chimici presenti, il relativo peso e la percentuale, calcolata in base al peso totale della colata. 
+  Questo elenco consente di verificare se la colata è all’interno degli standard produttivi previsti. 
+  Per ogni forno vengono visualizzate le informazioni sulla colata attuale, come lega, numero colata, 
+  numero colata progressiva e il peso. E’ inoltre possibile visualizzare un barcode che identifica il 
+  numero della colata, in modo da poterlo scansionare. Per ogni analisi chimica vengono 
+  visualizzate le seguenti informazioni: 
+  \begin{itemize}
+    \item Id Analisi progressivo;
+    \item Tipo di analisi chimica;
+    \item Data in cui l'analisi chimica è stata effettuata;
+    \item Identificativo del quantometro, ovvero dello strumento utilizzato per ottenere i risultati 
+    delle analisi chimiche.
+  \end{itemize}   
+  Inoltre, vengono visualizzati anche i seguenti elenchi:
+  \paragraph{Dettaglio Analisi}
+  Elenco che contiene il nome dell’elemento, il peso e la percentuale relativa rilevati e i range di 
+  percentuali in cui ogni elemento deve rientrare per rispettare gli standard produttivi previsti dalla 
+  normativa e dal cliente. 
+  \paragraph{Elenco Proposte}
+  Per ogni analisi chimica possono essere calcolate le proposte di correzione. In questo elenco vengono 
+  visualizzate tutte le proposte possibile, con id progressivo e correttivo di riferimento.
+  \paragraph{Dettaglio Proposta}
+  Vengono visualizzati i dettagli delle proposte già eventualmente accettate o quelle nuove da accettare 
+  e rifiutare, con l’id del materiale correttivo, la descrizione e la quantità da caricare in chilogrammi. 
+  Per ogni proposta è possibile eliminare un correttivo, aggiungerne uno nuovo e modificare la quantità 
+  da caricare di ogni correttivo.
+
+
+  \subsubsection{Visualizzazione e gestione delle anagrafiche delle materie prime e degli elementi chimici}
+  \paragraph{}
+  Questa funzionalià permette di visualizzare le anagrafiche, ovvero le informazioni, relative alle 
+  materie prime utilizzate nell’impianto e agli elementi chimici. Oltre a visualizzare le informazioni è 
+  possibile aggiungere nuove anagrafiche, sia per le materie prime che per gli elementi chimici, oltre 
+  che modificare quelle già esistenti. Inoltre per le materie prime che vengono utilizzate come correttivo, 
+  ovvero quelle materie prime che vengono aggiunte alla colata in corso per correggere i risultati delle 
+  analisi chimiche per rispettare gli standard produttivi, è possibile aggiungere o modificare l’associazione della 
+  materia stessa con gli elementi chimici che la compongono, con l’indicazione della percentuale e se la 
+  materia prima è un correttivo per un determinato elemento chimico oppure no.
+  
+  \subsubsection{Visualizzazione, aggiunta e modifica  delle anagrafiche generali dell’applicazione}
+  \paragraph{}
+  Questa funzionalià permette di visualizzare le anagrafiche, ovvero le informazioni, relative ai 
+  tanti aspetti dell’applicativo. I dizionari permettono un più facile inserimento dei dati da parte 
+  degli operatori, fornendo una lista di possibili valori in quei campi non liberamente compilabili ma 
+  che possono assumere solo determinati valori. Oltre a visualizzare le informazioni è possibile aggiungere 
+  nuove anagrafiche e modificare quelle già esistenti. Tra i vari dizionari possiamo trovare:
+  \begin{itemize}
+    \item L'elenco dei perchè, utilizzati per la giustificazione dei fermi;
+    \item L'elenco degli operatori che hanno accesso all'applicativo;
+    \item L'elenco dei gruppi operatori, utilizzati per l'assegnamento delle funzionalità a ogni utente;
+    \item L'elenco delle cause dei rallentamenti;
+    \item L'elenco dei tipi di anomalia.
+  \end{itemize} 
+
+
+
+  \subsubsection{Gestione delle security}
+  \paragraph{}
+  Ogni singolo utente appartiene a uno dei gruppi elencati nel \textit{Dizionatio Gruppi Utente} citato in precedenza. 
+  Ogni gruppo utente ha accesso a parti diverse della web application e a diverse funzionalità. L'accesso a diverse aree e 
+  funzionalità viene gestito dall'amministratore tramite la pagina di gestione delle security. Per ogni gruppo utente 
+  deve essere indicato a quali aree e a quali funzionalità critiche può accedere.
+
+
+
+  \subsubsection{Logout}
+  \paragraph{}
+  La funzionalità di logout permette all’utente di uscire dall’applicazione. Una volta effettuato il 
+  logout l’utente viene scollegato dall’applicazione e il sistema mostra di nuovo la pagina di login.
+
+
+
+  \subsection{Requisiti Non Funzionali}
+  I requisiti non funzionali descrivono le modalità operative e di gestione del sistema. Definiscono quindi vincoli 
+  sullo sviluppo del sistema stesso. Di seguito vengono riportati i requisiti non funzionali della web application \textit{Rapporti di Lavoro}.
+  
+  \subsubsection{Durata della sessione}
+  \paragraph{}
+  La sessione si interrompe ogni ora, con il sistema che esegue in automatico il logout e visualizza 
+  la pagina di login. Il parametro della durata della sessione è configurabile in base alle necessità.
+
+
+  \subsubsection{Storicizzazione dei dati}
+  \paragraph{}
+  Ogni informazione visualizzata dal sistema è memorizzata all'interno di un database, che contiene quindi 
+  tutti i dizionari, tutte le note, tutte le rilevazioni e tutti i dati che sono stati citati nel paragrafo precedente.
+
+  \subsubsection{Aspetti sulla sicurezza}
+  \paragraph{}
+  Le password degli operatori vengono memorizzate nel database. Per una questione di sicurezza queste password 
+  devono essere criptate. 
+
+  \subsection{Requisiti Di Dominio}
+  I requisiti di dominio sono requisiti derivati dal dominio applicativo del sistema software o da necessità
+  dettate dagli utenti. Di seguito vengono riportati i requisiti funzionali della web application \textit{Rapporti di Lavoro}.
+  
+  \subsubsection{Accesso consentito a personale autorizzato}
+  L'accesso alla web application può essere eseguito solo da personale autorizzato, che ha un proprio utente 
+  nella rete dell'impianto e che ha i permessi per accedere ai software di supervisione.

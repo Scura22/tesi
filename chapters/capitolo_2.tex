@@ -1,0 +1,316 @@
+\chapter{Strumenti e tecnologie}
+  \label{chapter_strumenti_tecnologie}
+  All'interno di questo capitolo verranno descritte le tecnologie e gli strumenti utilizzati per 
+  lo sviluppo della web application \textit{Rapporti di Lavoro}.
+  \section{Tecnologie utilizzate}
+  \subsection{Web Application - Angular}
+  \subsubsection{Web Application}
+  Una \textit{Web Application} è un'applicazione distribuita,
+  ovvero un'applicazione
+  accessibile tramite il web.
+  In particolare una web application può essere resa accessibile su \textit{internet}, 
+  e quindi resa accessibile a tutti, oppure all'interno di una \textit{intranet}\footnote{Una rete aziendale 
+  privata e isolata dalla rete esterna, che offre servizi accessibili solo dall'interno della rete aziendale.}, 
+  e quindi accessibile solo all'interno di un sistema informatico. Per la realizzazione dell'applicativo \textit{Rapporti di
+  Lavoro} è stato deciso di sviluppare una web application, in modo da renderla accessibile semplicemente con l'utilizzo di un 
+  browser installato su un semplice computer o un tablet.\\
+
+  \subsubsection{Angular}
+  Per la realizzazione della web application \textit{Rapporti di Lavoro} si è deciso di utilizzare 
+  \textit{Angular}. \textit{Angular} è un framework opensource\footnote{Un software è definito opensource 
+  se il codice sorgente viene reso disponibile per la modifica, lo studio e l'utilizzo.} dedicato appunto allo 
+  sviluppo di web application e sviluppato principalmente da Google. L'intenzione originaria era quella di creare uno 
+  strumento semplice e rapido per lo sviluppo di applicazioni in grado di girare su qualunque piattaforma e facilmente fruibili da 
+  qualsiasi tipo di dispositivo, come pc desktop, tablet o smartphone. Il più grande punto di forza di Angular è che 
+  le applicazioni vengono eseguite interamente dal browser. In questo modo anche le applicazioni più complesse e sofisticate 
+  risultano comunque veloci, leggere e facilmente fruibili.\\
+  Quando si parla di Angular non si può non parlare di \textit{Single Page Application} o \textit{SPA}, ovvero applicazioni web il quale utilizzo avviene 
+  tramite una singola pagina web. Questo garantisce una user experience molto più fluida e dinamica, comparabile a quella di un'applicazione 
+  desktop.\\
+  Angular non solo può essere utilizzato per le web application, ma si dimostra efficace anche  
+  in applicazioni mobile e/o desktop (tramite strumenti esterni come Ionic e Electron). Inoltre sfrutta 
+  anche moltissime librerie per l'integrazione con ulteriori servizi terzi con estrema facilità
+  come Google o Amazon Web Services.
+
+  \subsection{Linguaggi utilizzati}
+  Nel paragrafo seguente verranno descritti i linguaggi utilizzati per la realizzazione della web application \textit{Rapporti di Lavoro}.
+  \subsubsection{HTML}
+  \textit{HTML}, abbreviazione di \textit{Hypertext Markup Language}, è lo standard usato per formattare e
+  impaginare documenti
+  ipertestuali\footnote{Un ipertesto è un insieme di documenti correlati tra di loro tramite parole chiave.} ed è un linguaggio
+  di markup. Un linguaggio di markup è un insieme di regole che descrivono i meccanismi di rappresentazione di un testo. 
+  Il linguaggio HTML consente quindi di descrivere semanticamente la struttura di un documento web attraverso tag. 
+  HTML rappresenta dunque la struttura portante delle pagine web: su questa struttura si possono aggiungere modifiche grafiche,
+  grazie ai fogli di stile CSS, che verranno descritti successivamente, ed elementi dinamici. L'HTML è un linguaggio di pubblico
+  dominio e la sua sintassi è stabilita dal \textit{W3C} (\textit{World Wide Web Consortium}), che si occupa di favorire lo
+  sviluppo di tutte le potenzialità del World Wide Web. Il funzionamento del linguaggio HTML è quindi quello di gestire i
+  contenuti associandone la struttura grafica grazie all'utilizzo di tag diversi. Infatti ogni tag identifica un diverso ruolo
+  dei contenuti.\\
+  
+  Un documento HTML inizia con una dichiarazione del tipo di documento, utilizzata per dare al browser l'indicazione
+  per interpretare e visualizzare il documento stesso. Dopo la dichiarazione del tipo di documento, questo 
+  presenta una struttura ad albero annidato composta da sezioni delimitate da tag che a loro volta contengono altre 
+  sezioni sempre delimitate da tag. La struttura più esterna del documento è compresa tra i tag \textit{\textless html\textgreater}
+  e \textit{\textless /html\textgreater}. All'interno di questo tag lo standard prevede la definizione di due sottosezioni
+  distinte: la sezione di intestazione (o \textit{header}), delimitata tra i tag \textit{\textless head\textgreater} e 
+  \textit{\textless /head\textgreater}, che contiene informazioni di controllo solitamente non visualizzate dal browser come
+  collegamenti verso file esterni (file CSS o di script), e la sezione del corpo (o \textit{body}), delimitata tra i tag 
+  \textit{\textless body\textgreater} e \textit{\textless /body\textgreater}, che contiene la parte
+  informativa, ovvero il testo, le immagini e tutto ciò che costituisce la parte che deve essere visualizzata dal browser.
+  Oltre all'indicazione sulla struttura del documento lo standard prevede che le sezioni non debbano essere sovrapposte,
+  ovvero che ogni sezione deve essere chiusa prima di iniziare la sezione successiva.
+
+  \subsubsection{CSS}
+  \textit{CSS}, abbreviazione di \textit{Cascading Style Sheets}, è il linguaggio usato per definire la formattazione dei documenti
+  \textit{HTML}. Così come per l'\textit{HTML}, le regole per comporre il \textit{CSS} sono contenute in un insieme di direttive
+  emanate dal \textit{W3C}. L'introduzione del \textit{CSS} è stata utile per separare i contenuti delle pagine HTML dalla loro
+  formattazione. Questa struttura garantisce anche il riutilizzo del codice, ovvero consente di richiamare parti di codice già scritte
+  senza la necessità di doverle riscrivere. In particolare consente di assegnare lo stesso stile a più componenti all'interno
+  del documento HTML. L'inserimento del codice CSS nelle pagine web può essere effettuato in tre modi diversi: 
+  \begin{itemize}
+    \item inserimento nel tag \textit{\textless head\textgreater} di un collegamento ad un foglio di stile esterno, come
+    nell'esempio seguente:
+    \begin{lstlisting}[language=html]
+      <head>
+        <link rel="stylesheet" type="text/css" 
+          href="stylesheet.css"/>
+      </head>
+    \end{lstlisting}
+    \item inserimento nel tag \textit{\textless head\textgreater} delle dichiarazioni css tra i tag 
+    \textit{\textless style\textgreater} e \textit{\textless /style\textgreater}, come nell'esempio seguente:
+    \begin{lstlisting}[language=html]
+      <head>
+        <style type="text/css">
+          /*codice css*/
+        </style>
+      </head>
+    \end{lstlisting}
+    \item inserimento del codice CSS all'interno degli elementi, come nell'esempio seguente:
+    \begin{lstlisting}[language=html]
+      <tag style="css"></tag>
+    \end{lstlisting}
+  \end{itemize}
+  Generalmente un foglio di stile CSS è strutturato come una sequeza di regole, ovvero coppie costituite da un selettore e un
+  blocco di dichiarazioni. La struttura standard è la seguente:
+  \begin{lstlisting}[language=html]
+    selettore{
+      p1: v1,
+      p2: v2
+    }
+  \end{lstlisting}
+  Il selettore può essere di diverso tipo. Ad esempio il selettore può fare riferimento a un tipo o tag (come ad esempio 
+  \textit{body}) o a una classe o a un identificatore. Il blocco di dichiarazioni invece è costituito da una proprietà e un
+  valore assegnato a quella proprietà. Alcuni esempi di proprietà sono \textit{width} e \textit{height}, che vengono utilizzate
+  per impostare altezza e larghezza di un determinato elemento, \textit{color}, che viene utilizzata per definire il colore
+  del testo di un elemento, e \textit{text-align}, che viene utilizzato per definire l'allineamento degli elementi.
+  
+  \subsubsection{TypeScript}
+  \textit{TypeScript} è un linguaggio di programmazione fortemente tipizzato open source sviluppato da Microsoft. A differenza
+  di JavaScript, TypeScript presenta tipi, classi e interfacce. Il linguaggio estende la sintassi di JavaScript in modo che
+  qualunque programma scritto in quel linguaggio possa funzionare con TypeScript senza alcuna modifica. TypeScript presenta quindi
+  un sistema di annotazione dei tipi, che consente il controllo di questi tipi durante la fase di compilazione, anche se è comunque
+  possibile utilizzare la tipizzazione dinamica di JavaScript. I tipi primitivi utilizzabili in Typescript sono \textit{number},
+  \textit{string} e \textit{boolean}.
+
+  \subsubsection{C\#}
+  C\# è un linguaggio di programmazione orientato a oggetti e indipendente dai tipi. La sintassi di C\# prende spunto da
+  vari linguaggi nati precedentemente, come C++ o Java.  C\# solitamente viene utilizzato per sviluppare molti tipi di applicazioni
+  eseguite in .NET, la piattaforma di sviluppo ideata e sviluppata da Microsoft. La sintassi di base è molto simile
+  a quella dei linguaggi C, C++ e Java.  
+  C\#, per la web application \textit{Rapporti di Lavoro}, viene utilizzato per lo sviluppo della parte server, con i 
+  Controller che verranno descritti nel prossimo capitolo.
+
+  \subsection{Database - Microsoft SQL Server}
+  \subsubsection{Database}
+  Un \textit{Database} è un insieme di dati strutturati memorizzati elettronicamente in un sistema informatico.
+  I database solitamente vengono controllati e amministrati da un sistema DBMS (\textit{Database Management Sysyem}). 
+  Esistono diversi tipi di database, che vengono descritti di seguito.
+  \paragraph{Database Relazionali}
+  I database relazionali sono stati introdotti negli anni '80. All'interno di un database relazionale i dati sono organizzati
+  sotto forma di insiemi di tabelle composte da colonne e record. Questo tipo di tecnologia offre la soluzione più
+  efficiente e flessibile per accedere alle informazioni. Le tabelle del database relazionale spesso includono un
+  identificatore univoco per ogni riga all'interno della tabella, chiamato chiave primaria. Questa chiave primaria consente
+  di indicizzare i dati e può anche essere utilizzata per condividere valori tra più tabelle all'interno di un database. I dati
+  che fanno riferimento ad altri e che vengono utilizzati per mettere in relazione tra di loro le tabelle sono chiamati chiavi
+  esterne. Questa tipologia di database è quella utilizzata per la web application \textit{Rapporti di Lavoro}. Il linguaggio
+  utilizzato per la gestione di questa tipologia di database è \textit{SQL} e verrà approfondito nei prossimi paragrafi.
+  \paragraph{Database orientati agli oggetti}
+  All'interno di un database orientato agli oggetti, le informazioni vengono rappresentate sotto forma di oggetti,
+  come nel tipo di programmazione omonima. In un database orientato agli oggetti un set di dati viene associato con tutti 
+  i suoi attributi ad un unico oggetto. Oltre agli attrubuti, negli oggetti vengono memorizzati anche i metodi, infatti, 
+  come nel metodo di programmazione, ogni oggetto ha determinate attività che può svolgere. A ogni oggetto viene 
+  assegnato automaticamente un'identificazione univoca, in modo da indirizzare e richiamare facilmente gli oggetti salvati.
+  \paragraph{Database distribuiti}
+  Un database distribuito è composto da almeno due file presenti in due sedi diverse. Il database 
+  può quindi essere essere memorizzato su più computer all'interno della stessa rete o anche in reti diverse.
+  \paragraph{Data warehouse}
+  Un data warehouse è un tipo di database progettato espressamente per query e analisi veloci e consiste in un
+  repository centralizzato per i dati. In particolare questo tipo di database viene utilizzato per il supporto di 
+  attività di business intelligene, in particolare gli analytics.
+  \paragraph{Database NoSQL}
+  Un database NoSQL, detto anche non relazionale, consente di archiviare e manipolare dati non strutturati e 
+  semi-strutturati, a differenza di quanto accade con un database relazionale che definisce come devono essere 
+  composti tutti i dati inseriti nel database. Il punto di forza di questo tipo di database è quindi la possibilità
+  di avere modelli di dati flessibili e a differenza dei database relazionali i dati correlati tra loro non devono essere
+  suddivisi tra tabelle, ma i dati correlati sono annidati all'interno di un unica struttura dati.
+  \paragraph{Database grafici}
+  Un database grafico memorizza i dati in termini di entità e relazioni tra le entità. Questo tipo di database quindi 
+  è mappato su grafici, tramiti i quali le informazioni e le relative relazioni sono visualizzate chiaramente e memorizzate
+  come un insieme di dati ampio e coerente.
+  \paragraph{Database OLTP}
+  OLTP è un database di analisi dei dati veloce progettato per far fronte a un gran numero di transazioni
+  eseguite da più utenti.
+
+  \subsubsection{SQL}
+  \textit{SQL} (\textit{Structured Query Language}) è un linguaggio di programmazione utilizzato dalla maggior parte
+  dei database relazionali per l'esecuzione di query e la manipolazione e la definizione dei dati.
+  SQL è stato progettato per eseguire le seguenti operazioni:
+  \begin{itemize}
+    \item \textit{DDL} (\textit{Data Definition Language}), ovvero creare e modificare gli schemi del database;
+    \item \textit{DML} (\textit{Data Manipulation Language}), ovvero inserire, modificare e gestire dati memorizzati;
+    \item \textit{DQL} (\textit{Data Query Language}), ovvero interrogare i dati memorizzati;
+    \item \textit{DCL} (\textit{Data Control Language}), ovvero creare e gestire strumenti di controllo e accesso ai dati.
+  \end{itemize}
+  \paragraph{Data Definition Language}
+  \textit{DDL} viene utilizzato per la creazione, la modifica o l'eleminazione degli oggetti in un database. Sono quindi i
+  comandi che definiscono la struttura del database. Per eseguire questi comandi, l'utente che li esegue deve avere i permessi
+  necessari, che vengono assegnati tramite il \textit{DCL}. Il linguaggio è quindi utilizzato in fase di progettazione del database.
+  Questi comandi possono agire su \textit{Domini} (per creare altri tipi da assegnare agli attributi), \textit{Schemi}
+  (per creare una collezione di tutti gli oggetti che faranno parte della base di dati), \textit{Database}, \textit{Tabelle}
+  e \textit{Indici}. Di seguito vengono mostrati alcuni dei comandi del \textit{DDL}.
+  \begin{itemize}
+    \item \textit{CREATE DOMAIN/SCHEMA/DATABASE/TABLE/INDEX}, utilizzato per la creazione di nuovi domini, schemi, database,
+    tabelle e indici;
+    \item \textit{DROP DOMAIN/SCHEMA/DATABASE/TABLE/INDEX}, utilizzato per la rimozione di domini, schemi, database,
+    tabelle e indici esistenti;
+    \item \textit{ALTER DATABASE/TABLE}, utilizzato per la modifica di database e tabelle esistenti.
+  \end{itemize}
+  Nella creazione delle tabelle è possibile aggiungere anche dei vincoli, descritti di seguito:
+  \begin{itemize}
+    \item \textit{NOT NULL}, vincolo che impone che l'attributo al quale è assegnato non può assumere valori nulli;
+    \item \textit{UNIQUE}, vincolo che impone che per l'attributo al quale è assegnato non possa comparire lo stesso
+    valore su righe diverse;
+    \item \textit{PRIMARY KEY}, vincolo che indica qual è la chiave primaria della tabella, ovvero qual è l'attributo
+    che identifica in modo univoco una riga all'interno di una tabella;
+    \item \textit{FOREIGN KEY}, vincolo che impone che uno o più attributi fanno riferimento a una chiave primaria di
+    un'altra tabella. In questo modo, per l'attributo che viene chiamato chiave esterna (appunto, foreign key) è possibile
+    inserire solo valori presenti nella tabella referenziata.
+  \end{itemize}
+  
+  \paragraph{Data Manipulation Language}
+  \textit{DML} viene utilizzato per l'inserimento, la modifica e l'eliminazione dei dati all'interno delle tabelle
+  di un database. La struttura di questi dati viene definita con l'utilizzo del DDL. Per eseguire i comandi del DML, l'utente
+  che li esegue deve avere i permessi necessari, assegnati tramite il \textit{DCL}. Di seguito vengono mostrati alcuni dei 
+  comandi del \textit{DML}:
+  \begin{itemize}
+    \item \textit{INSERT}, che consente di inserire dati nelle tabelle. Le colonne di destinazione dei valori possono
+    essere dichiarate oppure no nel comando. La sintassi del comando Insert è la seguente:
+    \begin{lstlisting}[language=sql]
+      INSERT INTO nomeTabella (elencoColonne)
+      VALUES (elencoValori)
+    \end{lstlisting}
+    dove \textit{elencoColonne} è l'elenco delle colonne in cui inserire i valori e \textit{elencoValori} è l'elenco
+    dei valori da inserire nella tabella, che devono essere inseriti rispettando l'ordine dei campi dichiarati nell'elenco colonne;
+    \item \textit{UPDATE}, che consente di modificare i dati presenti nelle tabelle. E' possibile effettuare degli update generici
+    o con condizione. La sinstassi del comando Update è la seguente:
+    \begin{lstlisting}[language=sql]
+      UPDATE nomeTabella 
+      SET nomeCampo = nuovoValore 
+      WHERE condizione
+    \end{lstlisting}
+    dove dopo la parola chiave \textit{SET} bisogna inserire l'assegnamento del nuovo valore al campo desiderato, mentre dopo
+    la parola chiave \textit{WHERE} vanno inserire le condizioni per effettuare una selezione sulle righe da modificare; 
+    \item \textit{DELETE}, che consente di eliminare i dati nelle tabelle. Il comando può effettuare operazioni in modo generico
+    cancellando tutte le righe della tabella oppure ponendo delle condizioni. La sisntassi del comando Delete è la seguente:
+    \begin{lstlisting}[language=sql]
+      DELETE FROM nomeTabella 
+      WHERE condizione
+    \end{lstlisting}
+    dove dopo la parola chiave \textit{WHERE} vanno inserire le condizioni per effettuare una selezione sulle righe da 
+    eliminare. 
+  \end{itemize}
+  
+  \paragraph{Data Query Language}
+  \textit{DQL} viene utilizzato per la lettura e l'elaborazione dei dati presenti in un database. Questi dati vengono inseriti
+  tramite il \textit{DML} con strutture che sono state create con il \textit{DDL}. Per eseguire questi comandi, l'utente 
+  che li esegue deve avere i permessi necessari, che vengono assegnati tramite il \textit{DCL}. Il comando principale
+  per l'estrazione dei dati è \textit{SELECT}. La sintassi è la seguente:
+  \begin{lstlisting}[language=sql]
+    SELECT listaElementi
+    FROM listaTabelle 
+    WHERE condizione
+    [GROUP BY listaColonne]
+    [ORDER BY listaColonne]
+  \end{lstlisting}
+  dove \textit{listaElementi} è l'elenco dei campi da estrarre, \textit{listaTabelle} è l'elenco delle tabelle da cui
+  estrarre i dati, \textit{condizione} è l'elenco delle condizioni che un campo deve rispettare per potere essere selezionato
+  dalla query e \textit{listaColonne} è l'elenco di colonne di riferimento per l'ordinamento dei dati.
+  La clausola \textit{GROUP BY} viene utilizzata per raggruppare i risultati mentre la clausola \textit{ORDER BY} viene 
+  utilizzato per ordinarli.
+  
+  \paragraph{Data Control Language}
+  \textit{DCL} viene utilizzato per concedere o revocare agli utenti i permessi necessari per poter utilizzare i comandi
+  \textit{DML} e \textit{DDL}. I comandi \textit{DCL} sono \textit{Grant} e \textit{Revoke}. \textit{Grant} concede uno o più
+  permessi ad un determinato utente, mentre \textit{Revoke} li revoca.
+  
+
+  \subsubsection{Microsoft SQL Server}
+  Come già anticipato in precedenza, i database vengono controllati e amministrati da un DBMS (\textit{Database Management
+  System}), ovvero un sistema software progettato per consentire la creazione, la manipolazione e l'interrogazione di database.
+  In particolare, per la web application \textit{Rapporti di Lavoro} viene utilizzato \textit{Microsoft SQL Server} che è
+  un \textit{DBMS} relazionale prodotto da Microsoft. \textit{Microsoft SQL Server} usa una variante del linguaggio SQL
+  standard, ovvero il \textit{Transact-SQL} o \textit{T-SQL}. \textit{T-SQL} è l'estensione proprietaria del linguaggio
+  \textit{SQL} sviluppata da Microsoft. In aggiunta all'SQL standard, \textit{T-SQL} aggiunge funzioni per controllo di flusso,
+  definizione di variabili locali e funzioni per la manipolazione di stringhe o date.\\
+  Per quanto riguarda il controllo di flusso \textit{T-SQL} implementa alcune keyword come ad esempio \textit{IF} e
+  \textit{ELSE}, che consentono l'esecuzione condizionale di blocchi di istruzioni, \textit{BEGIN} e \textit{END}, che
+  delimitano un blocco di istruzioni, o \textit{WHILE}, che implementa dei cicli.\\
+  Invece, per quanto riguarda la definizione di variabili locali, \textit{T-SQL} implementa l'utilizzo di variabili locali,
+  accessibili solo allo script che le utilizza, mentre invece non è possibile implementare variabili globali.
+  Le parole chiave relative all'utilizzo di variabili locali sono \textit{DECLARE},
+  utilizzata per dichiarare una variabile, e \textit{SET}, utilizzata per attribuirle un valore. Di seguito viene mostrato un
+  esempio di come utilizzare queste parole chiave:
+  \begin{lstlisting}[language=sql]
+    DECLARE @nomeVariabile tipoVariabile
+    SET @nomeVariabile = valore
+  \end{lstlisting}
+
+  \section{Stumenti utilizzati}
+  \subsection{Microsoft Entity Framework Core}
+  \textit{Entity Framework Core} è una versione open source e multipiattaforma della tecnologia di accesso ai dati \textit{Entity
+  Framework}, che consente agli sviluppatori di lavorare con i dati sotto forma di oggetti, senza doversi preoccupare della 
+  struttura del database in cui sono memorizzati questi dati e hanno quindi la possibilità di lavorare a un livello più
+  alto di astrazione. Quindi, \textit{Entity Framework Core}, o \textit{EF Core}, può essere utilizzato come mapper relazionale
+  a oggetti che consente agli sviluppatori .NET di usare un database usando semplicemente degli oggetti e elimina la necessità
+  della maggior parte del codice di accesso ai dati.\\
+  Con \textit{EF Core}, l'accesso ai dati viene eseguito tramite un modello, costituito da classi di entità
+  e da un oggetto contesto (\textit{Context}) che rappresenta una sessione con il database. L'oggetto \textit{Context}
+  consente l'esecuzione di query e il salvataggio dei dati. Tramite questo oggetto è quindi possibile eseguire query ai dati
+  memorizzati nel database e salvarne di nuovi.\\Per quanto riguarda l'eseguire query, è possibile effettuare i vari comandi
+  appartenenti al \textit{DQL}. Di seguito viene mostrato un esempio per l'esecuzione di una query:
+  \begin{lstlisting}[language=csh]
+    using (var context = new DbContext())
+    {
+      var dati = context.Entity
+          .Where( x => x.id == 1).ToList();
+    }
+  \end{lstlisting}
+  All'interno di questo esempio la variabile \textit{context} è il riferimento al database e \textit{Entity} è
+  la classe di rifermiento alla'entità desiderata. Con il metodo \textit{Where} è possibile applicare dei filtri ai dati
+  e con il metodo \textit{ToList} i dati che soddisfano le condizioni inserite nel metodo \textit{Where} vengono restituiti in
+  un oggetto \textit{List} che rappresenta un elenco di oggetti di un determinato tipo.\\
+  Invece, per quanto riguarda il salvataggio di dati, è possibile eseguire i vari comandi appartenenti al \textit{DML}. Di
+  seguito viene mostrato un esempio:
+  \begin{lstlisting}[language=csh]
+    using (var context = new DbContext())
+    {
+      var nuovoDato = new Entity();
+      
+      context.Entity.Add(nuovoDato);
+      context.SaveChanges();
+    }
+  \end{lstlisting}
+  Questo esempio mostra come inserire un nuovo elemento all'interno della tabella \textit{Entity}. Infatti, con il metodo
+  \textit{Add} è possibile inserire l'oggetto \textit{nuovoDato} nella tabella \textit{Entity}. Invece, il metodo
+  \textit{SaveChanges} applica le modifiche al database. Senza l'utilizzo di questo metodo gli aggiornamenti apportati al
+  database vengono annullati.
