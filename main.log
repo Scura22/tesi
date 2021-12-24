@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.7)  20 DEC 2021 19:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.7)  24 DEC 2021 14:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -449,7 +449,12 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 Capitolo 3.
 [34
 
-] [35] [36] [37] [38] [39] [40]) (./chapters/capitolo_4.tex [41]
+] [35] [36] [37] [38] [39]
+Overfull \hbox (1.2605pt too wide) in paragraph at lines 147--148
+[]\OT1/cmr/m/it/10 VocNomeProvenienzaColaticcio\OT1/cmr/m/n/10 , ov-ve-ro il de-scrit-ti-vo del-la pro-ve-nien-za del-
+ []
+
+) (./chapters/capitolo_4.tex [40] [41]
 Capitolo 4.
 ) (./chapters/capitolo_5.tex [42
 
@@ -467,7 +472,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  61i,8n,70p,322b,1364s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (46 pages, 231598 bytes).
+Output written on main.pdf (46 pages, 232383 bytes).
 PDF statistics:
  210 PDF objects out of 1000 (max. 8388607)
  138 compressed objects within 2 object streams

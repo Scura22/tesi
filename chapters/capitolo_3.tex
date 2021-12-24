@@ -126,57 +126,47 @@
   rappresentazione delle informazioni relative agli output di tutte le colate, base e specifiche. I dati presenti in questo
   oggetto sono i seguenti:
   \begin{itemize}
-    \item \textit{VocId}, int;
-    \item \textit{VocIdScheda}, int;
-    \item \textit{VocQuantitaOutput}, float;
-    \item \textit{VocTipoOutput}, byte;
-    \item \textit{VocDescOutput}, string;
-    \item \textit{VocDataColata}, DateTime;
-    \item \textit{VocDichiarazione}, DateTime;
-    \item \textit{VocNumColataProg}, int;
-    \item \textit{VocNumColata}, string;
-    \item \textit{VocIdColata}, int;
-    \item \textit{VocSettimana}, int;
-    \item \textit{VocNomeLega}, string;
-    \item \textit{VocScorifica}, DateTime;
-    \item \textit{VocOperatore}, string;
-    \item \textit{VocIdQualita}, byte;
-    \item \textit{VocNomeQualita}, string;
-    \item \textit{VocIdProvenienzaColaticcio}, byte;
-    \item \textit{VocNomeProvenienzaColaticcio}, string;
-    \item \textit{VocDiProva}, bool;
-    \item \textit{VocNrCasse}, int;
-    \item \textit{VocNote}, string.
+    \item \textit{VocId}, ovvero un intero che rappresenta un identificativo progressivo dell'output della colata;
+    \item \textit{VocIdScheda}, ovvero un intero che fa riferimento all'identificativo della scheda in cui è memorizzato
+    l'output;
+    \item \textit{VocQuantitaOutput}, ovvero un numero che rappresenta la quantità totale dell'output;
+    \item \textit{VocTipoOutput}, ovvero un numero che fa riferimento all'identificativo del tipo di output;
+    \item \textit{VocDescOutput}, ovvero una stringa che rappresenta il tipo di output;
+    \item \textit{VocDataColata}, ovvero data e ora di inizio della colata;
+    \item \textit{VocDichiarazione}, ovvero data e ora in cui è stato inserito l'output;
+    \item \textit{VocNumColataProg}, ovvero il numero progressivo della colata di riferimento;
+    \item \textit{VocNumColata}, ovvero il numero della colata di riferimento;
+    \item \textit{VocIdColata}, ovvero il riferimento all'id della colata relativa;
+    \item \textit{VocSettimana}, ovvero il numero della settimana nell'anno in cui è stata effettuata la scorifica;
+    \item \textit{VocNomeLega}, ovvero il nome della lega relativa alla colata di riferimento;
+    \item \textit{VocScorifica}, ovvero data e ora in cui è stata effettuata la scorifica;
+    \item \textit{VocOperatore}, ovvero l'operatore che ha inserito l'output;
+    \item \textit{VocIdQualita}, ovvero il riferimento all'id della qualità dell'output;
+    \item \textit{VocNomeQualita}, ovvero il descrittivo della qualità dell'output;
+    \item \textit{VocIdProvenienzaColaticcio}, ovvero il riferimento all'id della provenienza dell'output;
+    \item \textit{VocNomeProvenienzaColaticcio}, ovvero il descrittivo della provenienza dell'output;
+    \item \textit{VocNote}, ovvero eventuali note inserite dall'operatore che ha aggiunto l'output.
   \end{itemize}
   
 
   \subsection{Rapporti Lavoro}
-  La classe \textit{AnalisiChimiche} rappresenta il relativo oggetto nel database. Questo oggetto viene utilizzato per la
-  rappresentazione delle rilevazioni delle Analisi Chimiche relative alle colate specifiche. Queste analisi chimiche vengono
-  rilevate tramite uno strumento, chiamato quantometro, e memorizzate su dei file. Questi file vengono poi analizzati dalla
-  web application \textit{Rapporti di Lavoro} e i dati relativi alle analisi chimiche vengono memorizzati nel database. I dati
-  presenti in questo oggetto sono i seguenti:
+  La classe \textit{VRapportidiLavoro} rappresenta il relativo oggetto nel database. Questo oggetto viene utilizzato per la
+  rappresentazione delle informazioni relative ai rapporti di lavoro visualizzate nelle relative pagine.
+  Questo oggetto rappresenta sia i rapporti di lavoro relativi alle colate base utilizzati nei rapporti di lavoro del forno
+  fusorio, sia i rapporti di lavoro relativi alle colate specifiche utilizzati nei rapporti di lavoro dei forni bacino, della
+  colata continua e del magazzino pani. I dati presenti in questo oggetto sono i seguenti:
   \begin{itemize}
-    \item \textit{VrlbId}, int;
-    \item \textit{VrlbDataInizio}, DateTime;
-    \item \textit{VrlbDataFine}, DateTime;
-    \item \textit{VrlbOperatore}, string;
-    \item \textit{VrlbNumeroColata}, string;
-    \item \textit{VrlbAnno}, int;
-    \item \textit{VrlbFamigliaLega}, string.
-  \end{itemize}
-  
-  \begin{itemize}
-    \item \textit{VrlsId}, int;
-    \item \textit{VrlsDataInizio}, DateTime;
-    \item \textit{VrlsDataFine}, DateTime;
-    \item \textit{VrlsIdDestinazione}, short;
-    \item \textit{VrlsDestinazioneNome}, string;
-    \item \textit{VrlsOperatore}, string;
-    \item \textit{VrlsNumeroColata}, string;
-    \item \textit{VrlsAnno}, int;
-    \item \textit{VrlsLega}, string;
-    \item \textit{VrlsDurata}, int.
+    \item \textit{VrlId}, ovvero l'identificativo progressivo della colata di riferimento;
+    \item \textit{VrlDataInizio}, ovvero data e ora di inizio della colata di riferimento;
+    \item \textit{VrlDataFine}, ovvero data e ora di fine della colata di riferimento;
+    \item \textit{VrlIdDestinazione}, ovvero il riferimento all'identificativo della destinazione della colata;
+    \item \textit{VrlDestinazioneNome}, ovvero il descrittivo della destinazione di riferimento;
+    \item \textit{VrlOperatore}, ovvero l'operatore che ha dato inizio alla colata;
+    \item \textit{VrlNumeroColata}, ovvero il numero della colata di riferimento;
+    \item \textit{VrlAnno}, ovvero l'anno in cui la colata è stata prodotta;
+    \item \textit{VrlLega}, ovvero la lega prodotta dalla colata di riferimento;
+    \item \textit{VrlDurata}, ovvero la durata della colata di riferimento;
+    \item \textit{VrlBase}, ovvero un flag che indica se il rapporto fa riferimento a una colata base o specifica;
   \end{itemize}
   
   
