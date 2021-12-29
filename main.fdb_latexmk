@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1640354198 "c:/Progetti/tesi/main.tex" "main.pdf" "main" 1640354199
+["pdflatex"] 1640799686 "c:/Progetti/tesi/main.tex" "main.pdf" "main" 1640799687
   "c:/Progetti/tesi/main.tex" 1637764805 1058 1e6b0c792c3d3e137e8a1ff76f0c710f ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1633619963 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1633620967 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -102,18 +102,18 @@
   "c:/texlive/2021/texmf.cnf" 1633625433 713 e69b156964470283e0530f5060668171 ""
   "chapters/capitolo_1.tex" 1635766878 41114 2d123d95567fc79d15c7b8dbd4b891a0 ""
   "chapters/capitolo_2.tex" 1637764871 24448 98f4279200067968231c8cbc4f4196f1 ""
-  "chapters/capitolo_3.tex" 1640354197 14471 64de008113050f06d5a1d44af1713c66 ""
+  "chapters/capitolo_3.tex" 1640799685 29840 c088448e14a1d5988e66fac55d874b0c ""
   "chapters/capitolo_4.tex" 1635944322 444 e98e4e6d61165a5ea016bbf4eb4edcd9 ""
   "chapters/capitolo_5.tex" 1635944385 223 1d9550c9aad57b955896baca182a6bdb ""
   "chapters/dediche.tex" 1634316618 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/introduzione.tex" 1633777187 3446 85674846db522d920a7d14e55c0cdb0a ""
-  "main.aux" 1640354199 15882 7bbf486f84787e3e4fcd6b922cbaa2ab "pdflatex"
-  "main.lof" 1640354199 160 93f3c42ca52db90ea07b3e4ec34ff66f "pdflatex"
+  "main.aux" 1640799687 15652 3a6f1311e37e6512e20120df75961473 "pdflatex"
+  "main.lof" 1640799687 160 93f3c42ca52db90ea07b3e4ec34ff66f "pdflatex"
   "main.tex" 1637764805 1058 1e6b0c792c3d3e137e8a1ff76f0c710f ""
-  "main.toc" 1640354199 8826 39823f105f037f3af1363d1efdd5fe2c "pdflatex"
+  "main.toc" 1640799687 8678 962f5fea41d11ebff1b001db0f7feefd "pdflatex"
   (generated)
-  "main.pdf"
-  "main.log"
-  "main.aux"
   "main.toc"
+  "main.aux"
+  "main.log"
+  "main.pdf"
   "main.lof"
