@@ -115,35 +115,35 @@
 \contentsline {subsection}{\numberline {2.2.1}Microsoft Entity Framework Core}{32}{}%
 \contentsline {chapter}{\numberline {3}Implementazione}{34}{}%
 \contentsline {section}{\numberline {3.1}Modelli}{34}{}%
-\contentsline {subsection}{\numberline {3.1.1}AnalisiChimiche}{34}{}%
+\contentsline {subsection}{\numberline {3.1.1}AnalisiChimiche}{35}{}%
 \contentsline {subsection}{\numberline {3.1.2}Anomalie}{35}{}%
 \contentsline {subsection}{\numberline {3.1.3}Colate}{36}{}%
 \contentsline {subsection}{\numberline {3.1.4}Correzioni}{37}{}%
 \contentsline {subsection}{\numberline {3.1.5}Schede Output}{38}{}%
-\contentsline {subsection}{\numberline {3.1.6}Output Colata}{38}{}%
+\contentsline {subsection}{\numberline {3.1.6}Output Colata}{39}{}%
 \contentsline {subsection}{\numberline {3.1.7}Rapporti Lavoro}{40}{}%
-\contentsline {section}{\numberline {3.2}Controller}{40}{}%
+\contentsline {section}{\numberline {3.2}Controller}{41}{}%
 \contentsline {subsection}{\numberline {3.2.1}AnalisiChimicheController}{41}{}%
 \contentsline {subsection}{\numberline {3.2.2}ColateController}{42}{}%
-\contentsline {subsection}{\numberline {3.2.3}OuptutColataController}{42}{}%
+\contentsline {subsection}{\numberline {3.2.3}OuptutColataController}{43}{}%
 \contentsline {subsection}{\numberline {3.2.4}RapportiDiLavoroController}{43}{}%
 \contentsline {subsection}{\numberline {3.2.5}SchedeOutputController}{46}{}%
 \contentsline {subsection}{\numberline {3.2.6}ShiftController}{47}{}%
-\contentsline {subsection}{\numberline {3.2.7}UserController}{47}{}%
+\contentsline {subsection}{\numberline {3.2.7}UserController}{48}{}%
 \contentsline {chapter}{\numberline {4}Interfaccia}{49}{}%
 \contentsline {section}{\numberline {4.1}Login}{49}{}%
 \contentsline {section}{\numberline {4.2}Storico Colate}{49}{}%
-\contentsline {section}{\numberline {4.3}Schede Colaticci}{49}{}%
-\contentsline {section}{\numberline {4.4}Rapporti Di Lavoro Forno Fusorio}{49}{}%
-\contentsline {section}{\numberline {4.5}Rapporti Di Lavoro Forni a Bacino}{49}{}%
-\contentsline {section}{\numberline {4.6}Rapporti Di Lavoro Colata Continua}{49}{}%
-\contentsline {section}{\numberline {4.7}Rapporti Di Lavoro Magazzino Pani}{49}{}%
-\contentsline {section}{\numberline {4.8}Analisi Chimiche}{49}{}%
-\contentsline {section}{\numberline {4.9}Materie e Elementi Chimici}{49}{}%
-\contentsline {section}{\numberline {4.10}Gestione Dizionari}{49}{}%
-\contentsline {section}{\numberline {4.11}Secuirity}{49}{}%
-\contentsline {chapter}{\numberline {5}Sviluppi futuri e conclusione}{50}{}%
-\contentsline {section}{\numberline {5.1}Sviluppi futuri}{50}{}%
-\contentsline {subsection}{\numberline {5.1.1}Analisi Metallografiche}{50}{}%
-\contentsline {subsection}{\numberline {5.1.2}Gestione carichi magazzino}{50}{}%
-\contentsline {section}{\numberline {5.2}Conclusioni}{50}{}%
+\contentsline {section}{\numberline {4.3}Schede Colaticci}{50}{}%
+\contentsline {section}{\numberline {4.4}Rapporti Di Lavoro Forno Fusorio}{51}{}%
+\contentsline {section}{\numberline {4.5}Rapporti Di Lavoro Forni a Bacino}{51}{}%
+\contentsline {section}{\numberline {4.6}Rapporti Di Lavoro Colata Continua}{51}{}%
+\contentsline {section}{\numberline {4.7}Rapporti Di Lavoro Magazzino Pani}{51}{}%
+\contentsline {section}{\numberline {4.8}Analisi Chimiche}{51}{}%
+\contentsline {section}{\numberline {4.9}Materie e Elementi Chimici}{51}{}%
+\contentsline {section}{\numberline {4.10}Gestione Dizionari}{51}{}%
+\contentsline {section}{\numberline {4.11}Security}{52}{}%
+\contentsline {chapter}{\numberline {5}Sviluppi futuri e conclusione}{53}{}%
+\contentsline {section}{\numberline {5.1}Sviluppi futuri}{53}{}%
+\contentsline {subsection}{\numberline {5.1.1}Analisi Metallografiche}{53}{}%
+\contentsline {subsection}{\numberline {5.1.2}Gestione carichi magazzino}{53}{}%
+\contentsline {section}{\numberline {5.2}Conclusioni}{53}{}%

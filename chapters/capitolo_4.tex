@@ -1,13 +1,72 @@
 \chapter{Interfaccia}
   \label{chapter_interfaccia}
+  All'interno di questo capitolo vengono mostrate le interfacce sviluppate per la web application e descritte le funzionalità
+  che sono state implementate. Le funzionalità descritte sono quelle relative all'utente amministratore, che ha accesso a tutte
+  le funzionalità della we application.
   \section{Login}
+  La schermata \textit{Login}, visibile nella figura 4.1, permette di visualizzare una form per l'inserimento delle 
+  credenziali d'accesso alla web application. Le credenziali richieste sono username e password e sono legate alle credenziali
+  di dominio dell'utente che deve effettuare il login. La verifica delle credenziali viene effettuato lato server, effettuando
+  la verifica delle credenziali inserite con quelle di dominio. Una volta che le credenziali vengono verificate e sono
+  corrette, viene verificata la presenza dell'utente nel database, per ricavare le informazioni sulle funzionalità
+  alle quali può accedere l'utente loggato in base al gruppo di appartenenza.
   \section{Storico Colate}
+  La schermata \textit{Storico Colata}, visibile nella figura 4.2.1, permette di visualizzare l'elenco delle colate che sono
+  state schedulate. La pagina contiene un filtro temporale che consente di filtrare le colate visualizzate in base ai filtri
+  impostati. La pagina è divisa in due sezioni orizzontali. La prima sezione mostra le informazioni relative alle colate base,
+  come le date di inizio e di fine previste e effettive, lo stato e l'operatore che ha effettuato operazioni sulla colata.
+  Selezionando una colata vengono mostrati due pulsanti. Uno consente di visualizzare il popup visibile nella figura 4.2.2,
+  che mostra i dettagli relativi alla lega collegata alla colata selezionata come il relativo cliente, nome, descrizione. 
+  L'altro pulsante invece consente di aggiungere un nuovo output relativo alla colata selezionata tramite un popup. 
+  Questo popup consente di inserire i dati relativi a un nuovo inserimento di un output relativo alla
+  colata selezionata. I dati in questione sono la data di scorifica, il tipo di output, il cassone in cui si trova l'output,
+  la qualità dell'output e eventuali note.\\
+  Con la selezione di una colata base viene anche popolata la seconda sezione con le informazioni relative alle colate specifiche
+  che sono collegate alla colata base selezionata. Anche per quanto riguarda le colate specifiche, selezionando 
+  una colata vengono abilitati due pulsanti analoghi a quelli descritti per le colate base.
   \section{Schede Colaticci}
+  La schermata \textit{Schede Colaticci}, visibile nella figura 4.3.1, permette di visualizzare l'elenco delle schede colaticce
+  attualmente aperte e quelle chiuse. La pagina contiene un filtro che consente di filtrare le schede tra aperte e chiuse ed
+  è divisa in due sezioni orizzontali. Le due sezioni mostrano rispettivamente le informazioni sulle schede base e sulle schede
+  specifiche.\\
+  Per quanto riguarda le schede aperte, vengono visualizzate le relative informazioni come il numero di scheda, la data
+  di apertura della scheda e il totale. Nella pagina è presente un pulsante che consente di inserire una nuova
+  scheda manualmente. Inoltre, se viene selezionata una scheda vengono mostrati altri due pulsanti. Il primo pulsante apre
+  il popup visibile nella figura 4.3.2, che consente di visualizzare i dettagli della scheda, ovvero tutte le informazioni
+  degli output relativi alla scheda selezionata, come la quantità, l'operatore che ha inserito l'output, la data di
+  dicharazione e la qualità. In questo popup inoltre è possibile aggiungere un nuovo output, modificarne uno già inserito,
+  spostare un output in un altra scheda o chiudere la scheda selezionata.
+  Il secondo invece chiude la scheda selezionata. Una volta che una scheda viene chiusa ne viene aperta una nuova
+  automaticamente per lo stesso cassone di quella che è appena stata chiusa.\\
+  Invece, per quanto riguarda le schede chiuse, vengono visualizzate le relative informazioni come il numero di scheda,
+  il relativo stato, il progressivo del camion utilizzato per la spedizione della scheda, il numero di DDT e le date di apertura,
+  chiusura e spedizione della scheda. Selezionando una scheda è possibile visualizzarne i dettagli tramite un popup analogo a
+  quello descritto in precedenza, nel quale vengono visualizzati i dettagli degli output relativi alla colata selezionata.
+  Inoltre se viene selezionata una scheda non spedita, è possibile inserire i dati di spedizione, come il numero del camion
+  e il numero del DDT e dichiarare la scheda come spedita.  
   \section{Rapporti Di Lavoro Forno Fusorio}
+
   \section{Rapporti Di Lavoro Forni a Bacino}
+ 
   \section{Rapporti Di Lavoro Colata Continua}
+
   \section{Rapporti Di Lavoro Magazzino Pani}
+
   \section{Analisi Chimiche}
+
   \section{Materie e Elementi Chimici}
+  La schermata \textit{Materie e Elementi Chimici}, visibile nella figura 4.x.x, permette di visualizzare le informazioni
+  relative alle anagrafiche delle materie prime e degli elementi chimici. In questa schermata è possibile aggiungere una nuova
+  anagrafica o modificarne una esistente. Inoltre, per i materiali correttivi è possibile associare gli elementi chimici
+  a un determinato correttivo con l'indicazione della percentuale in cui è contenuto nel correttivo e se il materiale è un
+  correttivo primario dell'elemento chimico. 
+
   \section{Gestione Dizionari}
-  \section{Secuirity}
+  La schermata \textit{Gestione Dizionari}, visibile nella figura 4.x.x, permette di visualizzare le informazioni relative
+  alle anagrafiche utilizzate nella varie schermate della web application. In questa schermata è possibile aggiungere una nuova
+  anagrafica o modificarne una esistente. Le anagrafiche consultabili in questa pagina sono le seguenti: 
+  
+  \section{Security}
+  La schermata \textit{Security}, visibile nella figura 4.x.x, permette di assegnare ai vari gruppi utente
+  le diverse funzionalità della web application e dell'applicativo di supervisione, come la visibilità o meno delle
+  diverse schermate e le funzionalità più (delicate)

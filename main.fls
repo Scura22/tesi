@@ -570,6 +570,10 @@ INPUT ./chapters/capitolo_3.tex
 INPUT chapters/capitolo_3.tex
 INPUT ./chapters/capitolo_3.tex
 INPUT chapters/capitolo_3.tex
+INPUT ./images//ClassDiagram.png
+INPUT ./images//ClassDiagram.png
+INPUT ./images//ClassDiagram.png
+INPUT ./images//ClassDiagram.png
 INPUT ./chapters/capitolo_4.tex
 INPUT chapters/capitolo_4.tex
 INPUT ./chapters/capitolo_4.tex
