@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.7)  15 JAN 2022 16:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.7)  22 JAN 2022 18:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -302,22 +302,22 @@ File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Info: Redefining \it@ocap on input line 31.
-LaTeX Info: Redefining \it@ccap on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Info: Redefining \it@ocap on input line 32.
+LaTeX Info: Redefining \it@ccap on input line 32.
 
 
 File italian.ldf warning: 
@@ -325,7 +325,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 31.
+italian.ldf    on input line 32.
 
 (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -461,26 +461,145 @@ Overfull \hbox (1.2605pt too wide) in paragraph at lines 153--154
 
 [40] [41] [42] [43] [44] [45] [46] [47]) (./chapters/capitolo_4.tex [48]
 Capitolo 4.
+<./images//Login.png, id=179, 589.4522pt x 453.94594pt>
+File: ./images//Login.png Graphic file (type png)
+<use ./images//Login.png>
+Package pdftex.def Info: ./images//Login.png  used on input line 14.
+(pdftex.def)             Requested size: 258.75pt x 199.26581pt.
 [49
 
-] [50]) (./chapters/capitolo_5.tex [51] [52]
+]
+<./images//StoricoColate.png, id=183, 1256.44406pt x 653.44125pt>
+File: ./images//StoricoColate.png Graphic file (type png)
+<use ./images//StoricoColate.png>
+Package pdftex.def Info: ./images//StoricoColate.png  used on input line 38.
+(pdftex.def)             Requested size: 345.0pt x 179.4227pt.
+ [50 <./images//Login.png>]
+<./images//ViewDetailLeghe.png, id=187, 1298.60156pt x 685.05937pt>
+File: ./images//ViewDetailLeghe.png Graphic file (type png)
+<use ./images//ViewDetailLeghe.png>
+Package pdftex.def Info: ./images//ViewDetailLeghe.png  used on input line 45.
+(pdftex.def)             Requested size: 345.0pt x 181.9998pt.
+ [51 <./images//StoricoColate.png> <./images//ViewDetailLeghe.png>]
+<./images//SchedeColaticciAperte.png, id=191, 1254.93843pt x 668.4975pt>
+File: ./images//SchedeColaticciAperte.png Graphic file (type png)
+<use ./images//SchedeColaticciAperte.png>
+Package pdftex.def Info: ./images//SchedeColaticciAperte.png  used on input line 61.
+(pdftex.def)             Requested size: 345.0pt x 183.78127pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--74
+
+ []
+
+<./images//DettaglioSchedaColaticci.png, id=192, 1082.54437pt x 335.75438pt>
+File: ./images//DettaglioSchedaColaticci.png Graphic file (type png)
+<use ./images//DettaglioSchedaColaticci.png>
+Package pdftex.def Info: ./images//DettaglioSchedaColaticci.png  used on input line 76.
+(pdftex.def)             Requested size: 345.0pt x 107.00299pt.
+[52 <./images//SchedeColaticciAperte.png>]
+<./images//SchedeColaticciChiuse.png, id=197, 1257.19687pt x 659.46375pt>
+File: ./images//SchedeColaticciChiuse.png Graphic file (type png)
+<use ./images//SchedeColaticciChiuse.png>
+Package pdftex.def Info: ./images//SchedeColaticciChiuse.png  used on input line 91.
+(pdftex.def)             Requested size: 345.0pt x 180.96567pt.
+ [53 <./images//DettaglioSchedaColaticci.png> <./images//SchedeColaticciChiuse.png>]
+<./images//CarichiMaterialiFfu.png, id=201, 854.44218pt x 344.03531pt>
+File: ./images//CarichiMaterialiFfu.png Graphic file (type png)
+<use ./images//CarichiMaterialiFfu.png>
+Package pdftex.def Info: ./images//CarichiMaterialiFfu.png  used on input line 114.
+(pdftex.def)             Requested size: 345.0pt x 138.90833pt.
+<./images//PianoCaricheFfu.png, id=202, 371.13657pt x 365.86688pt>
+File: ./images//PianoCaricheFfu.png Graphic file (type png)
+<use ./images//PianoCaricheFfu.png>
+Package pdftex.def Info: ./images//PianoCaricheFfu.png  used on input line 125.
+(pdftex.def)             Requested size: 172.5pt x 170.05376pt.
+ [54 <./images//CarichiMaterialiFfu.png>]
+<./images//OutputColata.png, id=206, 1227.08438pt x 115.18031pt>
+File: ./images//OutputColata.png Graphic file (type png)
+<use ./images//OutputColata.png>
+Package pdftex.def Info: ./images//OutputColata.png  used on input line 138.
+(pdftex.def)             Requested size: 345.0pt x 32.38382pt.
+<./images//ElencoFermi.png, id=207, 1223.32031pt x 169.38281pt>
+File: ./images//ElencoFermi.png Graphic file (type png)
+<use ./images//ElencoFermi.png>
+Package pdftex.def Info: ./images//ElencoFermi.png  used on input line 152.
+(pdftex.def)             Requested size: 345.0pt x 47.76802pt.
+ [55 <./images//PianoCaricheFfu.png> <./images//OutputColata.png>]
+<./images//ElencoAnomalie.png, id=211, 605.26125pt x 173.89969pt>
+File: ./images//ElencoAnomalie.png Graphic file (type png)
+<use ./images//ElencoAnomalie.png>
+Package pdftex.def Info: ./images//ElencoAnomalie.png  used on input line 165.
+(pdftex.def)             Requested size: 345.0pt x 99.12384pt.
+<./images//ElencoNote.png, id=212, 613.54219pt x 176.91093pt>
+File: ./images//ElencoNote.png Graphic file (type png)
+<use ./images//ElencoNote.png>
+Package pdftex.def Info: ./images//ElencoNote.png  used on input line 177.
+(pdftex.def)             Requested size: 345.0pt x 99.47975pt.
+ [56 <./images//ElencoFermi.png> <./images//ElencoAnomalie.png> <./images//ElencoNote.png>]
+<./images//CarichiMaterialiFb.png, id=216, 1225.57875pt x 202.50656pt>
+File: ./images//CarichiMaterialiFb.png Graphic file (type png)
+<use ./images//CarichiMaterialiFb.png>
+Package pdftex.def Info: ./images//CarichiMaterialiFb.png  used on input line 204.
+(pdftex.def)             Requested size: 345.0pt x 57.00426pt.
+ [57 <./images//CarichiMaterialiFb.png>]
+<./images//PaniDaRifondere.png, id=220, 1226.33156pt x 167.87718pt>
+File: ./images//PaniDaRifondere.png Graphic file (type png)
+<use ./images//PaniDaRifondere.png>
+Package pdftex.def Info: ./images//PaniDaRifondere.png  used on input line 247.
+(pdftex.def)             Requested size: 345.0pt x 47.22815pt.
+ [58]
+<./images//FormatoNumeroPacchi.png, id=225, 1232.35406pt x 132.495pt>
+File: ./images//FormatoNumeroPacchi.png Graphic file (type png)
+<use ./images//FormatoNumeroPacchi.png>
+Package pdftex.def Info: ./images//FormatoNumeroPacchi.png  used on input line 258.
+(pdftex.def)             Requested size: 345.0pt x 37.09227pt.
+ [59 <./images//PaniDaRifondere.png> <./images//FormatoNumeroPacchi.png>]
+<./images//PassaggioDiConsegne.png, id=229, 615.0478pt x 181.42781pt>
+File: ./images//PassaggioDiConsegne.png Graphic file (type png)
+<use ./images//PassaggioDiConsegne.png>
+Package pdftex.def Info: ./images//PassaggioDiConsegne.png  used on input line 298.
+(pdftex.def)             Requested size: 345.0pt x 101.77051pt.
+<./images//TempiComponenti.png, id=230, 609.02531pt x 319.94531pt>
+File: ./images//TempiComponenti.png Graphic file (type png)
+<use ./images//TempiComponenti.png>
+Package pdftex.def Info: ./images//TempiComponenti.png  used on input line 313.
+(pdftex.def)             Requested size: 345.0pt x 181.24786pt.
+ [60 <./images//PassaggioDiConsegne.png>]
+<./images//PesaturaPacchi.png, id=234, 608.2725pt x 216.05719pt>
+File: ./images//PesaturaPacchi.png Graphic file (type png)
+<use ./images//PesaturaPacchi.png>
+Package pdftex.def Info: ./images//PesaturaPacchi.png  used on input line 335.
+(pdftex.def)             Requested size: 345.0pt x 122.54726pt.
+ [61 <./images//TempiComponenti.png>]
+<./images//Interruzioni.png, id=238, 615.80063pt x 325.215pt>
+File: ./images//Interruzioni.png Graphic file (type png)
+<use ./images//Interruzioni.png>
+Package pdftex.def Info: ./images//Interruzioni.png  used on input line 348.
+(pdftex.def)             Requested size: 345.0pt x 182.2035pt.
+ [62 <./images//PesaturaPacchi.png> <./images//Interruzioni.png>] [63]
+<./images//AnalisiChimiche.png, id=245, 1255.69125pt x 685.05937pt>
+File: ./images//AnalisiChimiche.png Graphic file (type png)
+<use ./images//AnalisiChimiche.png>
+Package pdftex.def Info: ./images//AnalisiChimiche.png  used on input line 406.
+(pdftex.def)             Requested size: 345.0pt x 188.21942pt.
+ [64 <./images//AnalisiChimiche.png>]) (./chapters/capitolo_5.tex [65]
 Capitolo 5.
-) [53
+) [66
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 9352 strings out of 478599
- 142368 string characters out of 5858101
- 665088 words of memory out of 5000000
- 27070 multiletter control sequences out of 15000+600000
+ 9592 strings out of 478599
+ 149512 string characters out of 5858101
+ 665319 words of memory out of 5000000
+ 27310 multiletter control sequences out of 15000+600000
  414219 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  61i,8n,70p,322b,1364s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (56 pages, 606732 bytes).
+Output written on main.pdf (69 pages, 1625342 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
+ 306 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

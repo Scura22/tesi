@@ -132,18 +132,18 @@
 \contentsline {subsection}{\numberline {3.2.7}UserController}{48}{}%
 \contentsline {chapter}{\numberline {4}Interfaccia}{49}{}%
 \contentsline {section}{\numberline {4.1}Login}{49}{}%
-\contentsline {section}{\numberline {4.2}Storico Colate}{49}{}%
-\contentsline {section}{\numberline {4.3}Schede Colaticci}{50}{}%
-\contentsline {section}{\numberline {4.4}Rapporti Di Lavoro Forno Fusorio}{51}{}%
-\contentsline {section}{\numberline {4.5}Rapporti Di Lavoro Forni a Bacino}{51}{}%
-\contentsline {section}{\numberline {4.6}Rapporti Di Lavoro Colata Continua}{51}{}%
-\contentsline {section}{\numberline {4.7}Rapporti Di Lavoro Magazzino Pani}{51}{}%
-\contentsline {section}{\numberline {4.8}Analisi Chimiche}{51}{}%
-\contentsline {section}{\numberline {4.9}Materie e Elementi Chimici}{51}{}%
-\contentsline {section}{\numberline {4.10}Gestione Dizionari}{51}{}%
-\contentsline {section}{\numberline {4.11}Security}{52}{}%
-\contentsline {chapter}{\numberline {5}Sviluppi futuri e conclusione}{53}{}%
-\contentsline {section}{\numberline {5.1}Sviluppi futuri}{53}{}%
-\contentsline {subsection}{\numberline {5.1.1}Analisi Metallografiche}{53}{}%
-\contentsline {subsection}{\numberline {5.1.2}Gestione carichi magazzino}{53}{}%
-\contentsline {section}{\numberline {5.2}Conclusioni}{53}{}%
+\contentsline {section}{\numberline {4.2}Storico Colate}{50}{}%
+\contentsline {section}{\numberline {4.3}Schede Colaticci}{51}{}%
+\contentsline {section}{\numberline {4.4}Rapporti Di Lavoro Forno Fusorio}{54}{}%
+\contentsline {section}{\numberline {4.5}Rapporti Di Lavoro Forni a Bacino}{57}{}%
+\contentsline {section}{\numberline {4.6}Rapporti Di Lavoro Colata Continua}{58}{}%
+\contentsline {section}{\numberline {4.7}Rapporti Di Lavoro Magazzino Pani}{61}{}%
+\contentsline {section}{\numberline {4.8}Analisi Chimiche}{63}{}%
+\contentsline {section}{\numberline {4.9}Materie e Elementi Chimici}{65}{}%
+\contentsline {section}{\numberline {4.10}Gestione Dizionari}{65}{}%
+\contentsline {section}{\numberline {4.11}Security}{65}{}%
+\contentsline {chapter}{\numberline {5}Sviluppi futuri e conclusione}{66}{}%
+\contentsline {section}{\numberline {5.1}Sviluppi futuri}{66}{}%
+\contentsline {subsection}{\numberline {5.1.1}Analisi Metallografiche}{66}{}%
+\contentsline {subsection}{\numberline {5.1.2}Gestione carichi magazzino}{66}{}%
+\contentsline {section}{\numberline {5.2}Conclusioni}{66}{}%
