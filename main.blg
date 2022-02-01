@@ -1,0 +1,83 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: main.bib
+Warning--entry type for "Industry4.0" isn't style-file defined
+--line 15 of file main.bib
+Warning--entry type for "Adipso" isn't style-file defined
+--line 29 of file main.bib
+Warning--entry type for "IntroduzionePLC" isn't style-file defined
+--line 43 of file main.bib
+Warning--entry type for "GAMP5" isn't style-file defined
+--line 99 of file main.bib
+Warning--entry type for "AngulaDocumentation" isn't style-file defined
+--line 141 of file main.bib
+Warning--entry type for "Angular" isn't style-file defined
+--line 155 of file main.bib
+Warning--entry type for "OpenSource" isn't style-file defined
+--line 169 of file main.bib
+Warning--entry type for "Database" isn't style-file defined
+--line 183 of file main.bib
+Warning--entry type for "RelationalDatabase" isn't style-file defined
+--line 197 of file main.bib
+Warning--entry type for "RelationalDatabaseBis" isn't style-file defined
+--line 211 of file main.bib
+Warning--entry type for "NoSqlDatabase" isn't style-file defined
+--line 225 of file main.bib
+Warning--entry type for "NoSqlDatabasebIS" isn't style-file defined
+--line 239 of file main.bib
+Warning--entry type for "GraphDatabase" isn't style-file defined
+--line 253 of file main.bib
+Warning--entry type for "ObjectDatabase" isn't style-file defined
+--line 267 of file main.bib
+Warning--entry type for "HTML" isn't style-file defined
+--line 281 of file main.bib
+Warning--entry type for "TypesciprtDocumentation" isn't style-file defined
+--line 325 of file main.bib
+Warning--entry type for "C#Guide" isn't style-file defined
+--line 339 of file main.bib
+Warning--entry type for "SqlServer" isn't style-file defined
+--line 367 of file main.bib
+You've used 27 entries,
+            1791 wiz_defined-function locations,
+            577 strings with 6285 characters,
+and the built_in function-call counts, 3763 in all, are:
+= -- 296
+> -- 112
+< -- 1
++ -- 55
+- -- 28
+* -- 43
+:= -- 564
+add.period$ -- 81
+call.type$ -- 27
+change.case$ -- 19
+chr.to.int$ -- 0
+cite$ -- 27
+duplicate$ -- 190
+empty$ -- 509
+format.name$ -- 28
+if$ -- 894
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 17
+newline$ -- 138
+num.names$ -- 27
+pop$ -- 203
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 88
+stack$ -- 0
+substring$ -- 36
+swap$ -- 38
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 29
+width$ -- 29
+write$ -- 255
+(There were 18 warnings)

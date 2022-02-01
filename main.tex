@@ -13,10 +13,11 @@
 \usepackage[nottoc]{tocbibind}
 \usepackage{caption}
 \usepackage[utf8]{inputenc}
+\usepackage{url}
 
 \renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
 \renewcommand{\baselinestretch}{1.2}
-
+ 
 \usepackage[labelfont=bf,textfont=md]{caption}
 
 \addtolength{\skip\footins}{2pc plus 5pt}
@@ -49,5 +50,9 @@
     \input{chapters/capitolo_3.tex}
     \input{chapters/capitolo_4.tex}
     \input{chapters/capitolo_5.tex}
+
+    \nocite{*}
+    \bibliographystyle{unsrt}
+    \bibliography{main}
 
 \end{document}

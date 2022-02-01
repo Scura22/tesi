@@ -1,6 +1,49 @@
 \chapter{Sviluppi futuri e conclusione}
   \label{chapter_sviluppi_futuri_conclusione}
   \section{Sviluppi futuri}
+  La web application \textit{Rapporti di Lavoro} è e continuerà a essere in sviluppo per andare incontro alle esigenze
+  del cliente e, soprattutto, per migliorare l'applicativo in base alle indicazioni e alle necessità degli operatori
+  che utilizzano il sistema ogni giorno in impianto. Altre modifiche future all'applicazione potrebbero essere la modifica
+  del layout per una visione più immediata dei dati da parte degli operatori e di altre due sezioni dell'applicativo che 
+  possono aumentare ulteriormente la gestione automatica dell'impianto e del salvataggio dei dati. Queste due sezioni verranno
+  descritte nei prossimi paragrafi. 
+
   \subsection{Analisi Metallografiche}
-  \subsection{Gestione carichi magazzino}
+  Le analisi metallografiche sono una serie di informazioni che l'operatore deve inserire per indicare le informazioni
+  relative alla qualità finale della colata. Nella pagina relativa alle analisi metallografiche quindi sarà possibile
+  selezionare una colata e visualizzare le relative informazioni, come data e ora di inizio e di fine, la lega e il
+  cliente di riferimento. Inoltre dovranno essere visualizzate tre sezioni relative ai dati rilevati inseriti dagli operatori.
+  La prima sezione sarà relativa ai controlli dei parametri di produzione, da effettuare nei forni fusorio e bacino e in
+  altri punti della produzione. La seconda sezione invece sarà relativa ai controlli chimico-fisici, da effettuare in base
+  alle quantità degli elementi chimici rilevate durante la produzione della colata. Infine, l'ultima sezione sarà relativa
+  ai controlli da effettuare sui pani in magazzino, ovvero sul risultato della colata. I controlli che vengono effettuati sui pani
+  sono relativi alla quantità di pani scartati e ai difetti che possono presentarsi, come la presenza di macchie, cavità o
+  eventuali pani storti, oltre che al numero di pani totali prodotti.\\
+  Oltre ad inserire questi dati, l'operatore potrà anche visualizzare le informazioni sull'analisi chimica salvata per cliente
+  per la colata selezionata ed esportare un report contenente i vari parametri in un file pdf o excel.  
+
+  \subsection{Gestione Carichi Magazzino} 
+  All'interno dell'applicazione, l'operatore che ha il compito di modificare la quadratura di magazzino e la pianificazione
+  delle cariche per il forno fusorio può visualizzare la sezione relativa alla gestione del magazzino. Questa 
+  consiste nel visualizzare informazioni sui rottami presenti
+  in magazzino. Nella pagina sarà possibile filtrare le informazioni per data. Una volta selezionato un intervallo di tempo
+  sarà possibile vedere, per ogni rottame e per ogni giorno della schedulazione, la giacenza, gli ingressi pianificati in
+  magazzino, i consumi pianificati in base alla pianificazione delle cariche e i consumi effettivi, ovvero i consumi totali
+  calcolati in base ai carichi effettuati nella giornata.\\
+  Invece, la parte di pianificazione della produzione consente di definire una sequenza di cariche per una determinata giornata.
+  Per ogni materiale è possibile impostare la quantità totale da caricare, il numero di cariche e la quantità da caricare per
+  ogni carica, che sarà caratterizzata dall'orario previsto e da alcuni controlli che indicano se effettuare o meno
+  la scorifica della colata in diversi punti della produzione.
+
   \section{Conclusioni}
+  Negli scorsi capitoli sono state presentate le soluzioni adottate per la gestione di un impianto di produzione di leghe
+  di alluminio in colata continua. Le soluzioni che sono state adottate rispettano i prerequisiti che sono stati stabiliti dal
+  cliente ma, soprattutto, vanno incontro alle esigenze della normativa \textit{Industry 4.0}. Infatti, integrando l'applicativo
+  web con il sistema di supervisione, il cliente raggiunge, almeno in parte, gli obiettivi dell'Industry 4.0, ovvero
+  automatizza e innova l'intero processo produttivo con le migliori tecnologie, si interfaccia con gli impianti in 
+  tempo reale, ha il controllo totale delle lavorazioni e dei fermi macchine, aumentando la produttività e la qualità
+  del prodotto finale.\\
+  L'applicativo \textit{Rapporti di Lavoro} è stato installato presso l'impianto del cliente, ma lo sviluppo continua con
+  l'implementazione delle funzionalità elencate nel paragrafo relativo agli sviluppi futuri e con piccole migliorie a
+  livello funzionale e/o grafico atte a migliorare il livello di automazione delle principali attività in impianto
+  e per soddisfare il cliente in tutte le sue esigenze.

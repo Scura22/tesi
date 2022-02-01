@@ -1,0 +1,145 @@
+\begin{thebibliography}{9}
+\raggedright
+
+\bibitem{RivoluzioniIndustriali}
+S.~Battilossi.
+\newblock {\em {L}e {R}ivoluzioni {I}ndustriali}.
+\newblock Carocci, 2002.
+
+\bibitem{Industry4.0}
+IBM.
+\newblock {\em {C}he {C}os'è l'{I}ndustry 4.0?}
+\newblock \url{https://www.ibm.com/it-it/topics/industry-4-0}.
+
+\bibitem{Adipso}
+Adipso.
+\newblock {\em {A}ttività}.
+\newblock \url{https://adipso.it/pages/attivita.html}.
+
+\bibitem{IntroduzionePLC}
+L.~Canducci.
+\newblock {\em {I}ntroduzione ai {PLC}}.
+\newblock \url{https://leonardocanducci.org/wiki/tp4/introduzione_ai_plc}.
+
+\bibitem{PLC}
+M.~Gottardo.
+\newblock {\em {L}et's {P}rogram {A} {P}lc}.
+\newblock Lulu.com, 2012.
+
+\bibitem{Scada}
+A.~Stuart~Boyer.
+\newblock {\em {SCADA}. {S}upervisory {C}ontrol and {D}ata {A}cquisition}.
+\newblock International Society of Automation, 2010.
+
+\bibitem{ScadaNetwork}
+J.~Hieb.
+\newblock {\em {S}ecurity {H}ardened {R}emote {T}erminal {U}nits for {SCADA}
+  {N}etworks}.
+\newblock University of Louisville, 2008.
+
+\bibitem{GAMP5}
+M.~Toniolo and E.~Favretto.
+\newblock {\em {L}a convalida dei sistemi informatici in ambito sanitario mediante
+  l’applicazione del metodo gamp5}.
+\newblock \url{https://www.qualitaonline.it/}.
+
+\bibitem{AnalisiRequisiti}
+D.~Hay.
+\newblock {\em {R}equirements {A}nalysis}.
+\newblock Prentice Hall Professional, 2003.
+
+\bibitem{CinquePerche}
+I.~Fantin.
+\newblock {\em {A}pplicare {I}l {P}roblem {S}olving}.
+\newblock Createspace, 2013.
+
+\bibitem{AngulaDocumentation}
+Angular.
+\newblock {\em {A}ngular {D}ocumentation}.
+\newblock \url{https://angular.io}.
+
+\bibitem{Angular}
+S.~Barilli.
+\newblock {\em {S}viluppo {W}eb {A}pplication in {A}ngular}.
+\newblock
+  \url{https://www.saep-ict.it/magazine/sviluppo-web-application-angular-tutti-i-vantaggi/}.
+
+\bibitem{OpenSource}
+Open Source.
+\newblock {\em {T}he {O}pen {S}ource definition}.
+\newblock \url{https://opensource.org/docs/osd/}.
+
+\bibitem{Database}
+Oracle.
+\newblock {\em {C}he cos'è un {D}atabase?}
+\newblock \url{https://www.oracle.com/it/database/what-is-database/}.
+
+\bibitem{RelationalDatabase}
+Oracle.
+\newblock {\em {C}he cos'è un database relazionale?}
+\newblock
+  \url{https://www.oracle.com/it/database/what-is-a-relational-database/}.
+
+\bibitem{RelationalDatabaseBis}
+GeekandJob SRL.
+\newblock {\em {D}atabase relazionale}.
+\newblock \url{https://www.geekandjob.com/wiki/database-relazionale}.
+
+\bibitem{NoSqlDatabase}
+Amazon~Web Services.
+\newblock {\em {C}os'è {NOS}ql}?
+\newblock \url{https://aws.amazon.com/it/nosql/}.
+
+\bibitem{NoSqlDatabasebIS}
+MongoDB.
+\newblock {\em {C}os'è {NOS}ql}?
+\newblock \url{https://www.mongodb.com/it-it/nosql-explained}.
+
+\bibitem{GraphDatabase}
+Ionos.
+\newblock {\em {G}raph databases}.
+\newblock
+  \url{https://www.ionos.it/digitalguide/hosting/tecniche-hosting/database-a-grafo/}.
+
+\bibitem{ObjectDatabase}
+Ionos.
+\newblock {\em {D}atabase orientato agli oggetti}.
+\newblock
+  \url{https://www.ionos.it/digitalguide/hosting/tecniche-hosting/database-orientato-gli-oggetti/}.
+
+\bibitem{HTML}
+GeekandJob SRL.
+\newblock {\em {HTML}}.
+\newblock \url{https://www.geekandjob.com/wiki/html}.
+
+\bibitem{HTMLBook}
+I.~Fantin.
+\newblock {\em {A}pplicare {I}l {P}roblem {S}olving}.
+\newblock Createspace, 2013.
+
+\bibitem{HTMLArticle}
+C.~Giustozzi.
+\newblock {\em {L}a storia dell'{HTML}}.
+\newblock MCmicrocomputer, pages 316 -- 320, 1997.
+
+\bibitem{TypesciprtDocumentation}
+TypeScript.
+\newblock {\em {T}ype{S}cript {D}ocumentation}.
+\newblock \url{https://www.typescriptlang.org}.
+
+\bibitem{C#Guide}
+Microsoft.
+\newblock {\em {G}uida a {C}\#}.
+\newblock \url{https://docs.microsoft.com/it-it/dotnet/csharp/tour-of-csharp/}.
+
+\bibitem{C#Book}
+J.~Sharp.
+\newblock {\em {M}icrosoft {V}isual {C}\# 2012}.
+\newblock Mondadori Informatica, 2014.
+
+\bibitem{SqlServer}
+Microsoft.
+\newblock {\em {S}ql {S}erver 2019}.
+\newblock \url{https://www.microsoft.com/en-us/sql-server/sql-server-2019}.
+
+\end{thebibliography}
