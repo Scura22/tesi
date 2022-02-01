@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1643737656 "main.aux" "main.bbl" "main" 1643737962
+["bibtex main"] 1643745736 "main.aux" "main.bbl" "main" 1643747012
   "c:/texlive/2021/texmf-dist/bibtex/bst/base/unsrt.bst" 1633619582 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "main.aux" 1643737852 20517 5a81e7ca94d47d31ed055eefd8ec0248 "pdflatex"
+  "main.aux" 1643747012 20517 5a81e7ca94d47d31ed055eefd8ec0248 "pdflatex"
   "main.bib" 1643464309 5924 1030d47fe41d8c0f69a591b9f505fa51 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1643737849 "c:/Progetti/tesi/main.tex" "main.pdf" "main" 1643737962
+["pdflatex"] 1643747010 "c:/Progetti/tesi/main.tex" "main.pdf" "main" 1643747012
   "c:/Progetti/tesi/main.tex" 1643737848 1199 2d3fb0dbc5a7c0b8e206e83abec05030 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1633619963 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1633620967 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -107,7 +107,7 @@
   "chapters/capitolo_3.tex" 1642861463 30186 e9b24878cc4b8b0b96eb907dd4ca83cd ""
   "chapters/capitolo_4.tex" 1642871759 29212 5da8181815e1988b1a4d025513d1a170 ""
   "chapters/capitolo_5.tex" 1643459328 4671 bcb5ad625a4829f8d88bc2da2079539b ""
-  "chapters/dediche.tex" 1643737961 422 219905349e0d68e82ceafcb75b0da351 ""
+  "chapters/dediche.tex" 1643747009 1447 25935ff96c76c73c1a2f5a3e0f5d2a48 ""
   "chapters/introduzione.tex" 1633777187 3446 85674846db522d920a7d14e55c0cdb0a ""
   "images//AnalisiChimiche.png" 1642871523 79029 8816d5068305e2d671803520a46de389 ""
   "images//CarichiMaterialiFb.png" 1642869309 26613 23afc9aee9d6210733da193cb2f276ea ""
@@ -130,14 +130,14 @@
   "images//StoricoColate.png" 1642861103 65642 5fe6bbc25f35b9788b2bee63d95b4bc7 ""
   "images//TempiComponenti.png" 1642870856 20809 13294da1240ba20aaa02a6b82f936992 ""
   "images//ViewDetailLeghe.png" 1642861122 90239 3381e4a1c5c44e89ad38d0f1002ba6f0 ""
-  "main.aux" 1643737852 20517 5a81e7ca94d47d31ed055eefd8ec0248 "pdflatex"
-  "main.bbl" 1643737846 3923 8b4e51330c9e8c160cda35758d5e3736 "bibtex main"
-  "main.lof" 1643737852 2341 ed67fcc53a1d24cf813058c6215368b3 "pdflatex"
+  "main.aux" 1643747012 20517 5a81e7ca94d47d31ed055eefd8ec0248 "pdflatex"
+  "main.bbl" 1643746988 4068 8b4e51330c9e8c160cda35758d5e3736 "bibtex main"
+  "main.lof" 1643747012 2341 ed67fcc53a1d24cf813058c6215368b3 "pdflatex"
   "main.tex" 1643737848 1199 2d3fb0dbc5a7c0b8e206e83abec05030 ""
-  "main.toc" 1643737852 8721 f9e93e061a952f3d65db9d2c1aad5b13 "pdflatex"
+  "main.toc" 1643747012 8721 f9e93e061a952f3d65db9d2c1aad5b13 "pdflatex"
   (generated)
-  "main.toc"
-  "main.lof"
   "main.aux"
-  "main.log"
+  "main.lof"
   "main.pdf"
+  "main.toc"
+  "main.log"
