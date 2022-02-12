@@ -21,7 +21,7 @@
   se il codice sorgente viene reso disponibile per la modifica, lo studio e l'utilizzo.} dedicato appunto allo 
   sviluppo di web application e sviluppato principalmente da Google. L'intenzione originaria era quella di creare uno 
   strumento semplice e rapido per lo sviluppo di applicazioni in grado di girare su qualunque piattaforma e facilmente fruibili da 
-  qualsiasi tipo di dispositivo, come pc desktop, tablet o smartphone. Il più grande punto di forza di Angular è che 
+  qualsiasi tipo di dispositivo, come PC desktop, tablet o smartphone. Il più grande punto di forza di Angular è che 
   le applicazioni vengono eseguite interamente dal browser. In questo modo anche le applicazioni più complesse e sofisticate 
   risultano comunque veloci, leggere e facilmente fruibili.\\
   Quando si parla di Angular non si può non parlare di \textit{Single Page Application} o \textit{SPA}, ovvero applicazioni web il quale utilizzo avviene 
@@ -123,7 +123,7 @@
   \subsection{Database - Microsoft SQL Server}
   \subsubsection{Database}
   Un \textit{Database} è un insieme di dati strutturati memorizzati elettronicamente in un sistema informatico.
-  I database solitamente vengono controllati e amministrati da un sistema DBMS (\textit{Database Management Sysyem}). 
+  I database solitamente vengono controllati e amministrati da un sistema DBMS (\textit{DataBase Management Sysyem}). 
   Esistono diversi tipi di database, che vengono descritti di seguito.
   \paragraph{Database Relazionali}
   I database relazionali sono stati introdotti negli anni '80. All'interno di un database relazionale i dati sono organizzati
@@ -137,12 +137,12 @@
   \paragraph{Database orientati agli oggetti}
   All'interno di un database orientato agli oggetti, le informazioni vengono rappresentate sotto forma di oggetti,
   come nel tipo di programmazione omonima. In un database orientato agli oggetti un set di dati viene associato con tutti 
-  i suoi attributi ad un unico oggetto. Oltre agli attrubuti, negli oggetti vengono memorizzati anche i metodi, infatti, 
+  i suoi attributi ad un unico oggetto. Oltre agli attributi, negli oggetti vengono memorizzati anche i metodi. Infatti, 
   come nel metodo di programmazione, ogni oggetto ha determinate attività che può svolgere. A ogni oggetto viene 
-  assegnato automaticamente un'identificazione univoca, in modo da indirizzare e richiamare facilmente gli oggetti salvati.
+  assegnato automaticamente un identificatore univoco, in modo da indirizzare e richiamare facilmente gli oggetti salvati.
   \paragraph{Database distribuiti}
   Un database distribuito è composto da almeno due file presenti in due sedi diverse. Il database 
-  può quindi essere essere memorizzato su più computer all'interno della stessa rete o anche in reti diverse.
+  può quindi essere memorizzato su più computer all'interno della stessa rete o anche in reti diverse.
   \paragraph{Data warehouse}
   Un data warehouse è un tipo di database progettato espressamente per query e analisi veloci e consiste in un
   repository centralizzato per i dati. In particolare questo tipo di database viene utilizzato per il supporto di 
@@ -151,8 +151,8 @@
   Un database NoSQL, detto anche non relazionale, consente di archiviare e manipolare dati non strutturati e 
   semi-strutturati, a differenza di quanto accade con un database relazionale che definisce come devono essere 
   composti tutti i dati inseriti nel database. Il punto di forza di questo tipo di database è quindi la possibilità
-  di avere modelli di dati flessibili e a differenza dei database relazionali i dati correlati tra loro non devono essere
-  suddivisi tra tabelle, ma i dati correlati sono annidati all'interno di un unica struttura dati.
+  di avere modelli di dati flessibili e, a differenza dei database relazionali, i dati correlati tra loro non devono essere
+  suddivisi tra tabelle, ma sono annidati all'interno di un unica struttura dati.
   \paragraph{Database grafici}
   Un database grafico memorizza i dati in termini di entità e relazioni tra le entità. Questo tipo di database quindi 
   è mappato su grafici, tramiti i quali le informazioni e le relative relazioni sono visualizzate chiaramente e memorizzate
@@ -183,7 +183,7 @@
     tabelle e indici;
     \item \textit{DROP DOMAIN/SCHEMA/DATABASE/TABLE/INDEX}, utilizzato per la rimozione di domini, schemi, database,
     tabelle e indici esistenti;
-    \item \textit{ALTER DATABASE/TABLE}, utilizzato per la modifica di database e tabelle esistenti.
+    \item \textit{ALTER DATABASE/TABLE}, utilizzato per la modifica di database o tabelle esistenti.
   \end{itemize}
   Nella creazione delle tabelle è possibile aggiungere anche dei vincoli, descritti di seguito:
   \begin{itemize}
@@ -199,7 +199,7 @@
   
   \paragraph{Data Manipulation Language}
   \textit{DML} viene utilizzato per l'inserimento, la modifica e l'eliminazione dei dati all'interno delle tabelle
-  di un database. La struttura di questi dati viene definita con l'utilizzo del DDL. Per eseguire i comandi del DML, l'utente
+  di un database. La struttura di questi dati viene definita con l'utilizzo del \textit{DDL}. Per eseguire i comandi del \textit{DML}, l'utente
   che li esegue deve avere i permessi necessari, assegnati tramite il \textit{DCL}. Di seguito vengono mostrati alcuni dei 
   comandi del \textit{DML}:
   \begin{itemize}
@@ -219,9 +219,9 @@
       WHERE condizione
     \end{lstlisting}
     dove dopo la parola chiave \textit{SET} bisogna inserire l'assegnamento del nuovo valore al campo desiderato, mentre dopo
-    la parola chiave \textit{WHERE} vanno inserire le condizioni per effettuare una selezione sulle righe da modificare; 
+    la parola chiave \textit{WHERE} vanno inserite le condizioni per effettuare una selezione sulle righe da modificare; 
     \item \textit{DELETE}, che consente di eliminare i dati nelle tabelle. Il comando può effettuare operazioni in modo generico
-    cancellando tutte le righe della tabella oppure ponendo delle condizioni. La sisntassi del comando Delete è la seguente:
+    cancellando tutte le righe della tabella oppure ponendo delle condizioni. La sintassi del comando Delete è la seguente:
     \begin{lstlisting}[language=sql]
       DELETE FROM nomeTabella 
       WHERE condizione
@@ -255,7 +255,7 @@
   
 
   \subsubsection{Microsoft SQL Server}
-  Come già anticipato in precedenza, i database vengono controllati e amministrati da un DBMS (\textit{Database Management
+  Come già anticipato in precedenza, i database vengono controllati e amministrati da un DBMS (\textit{DataBase Management
   System}), ovvero un sistema software progettato per consentire la creazione, la manipolazione e l'interrogazione di database.
   In particolare, per la web application \textit{Rapporti di Lavoro} viene utilizzato \textit{Microsoft SQL Server} che è
   un \textit{DBMS} relazionale prodotto da Microsoft. \textit{Microsoft SQL Server} usa una variante del linguaggio SQL

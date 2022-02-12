@@ -4,7 +4,7 @@
   che sono state implementate. Le funzionalità descritte sono quelle relative all'utente amministratore, che ha accesso a tutte
   le funzionalità della web application.
   \section{Login}
-  La schermata \textit{Login}, visibile nella \textit{Figura \ref{fig:Login}}, permette di visualizzare una form per
+  La schermata \textit{Login}, visibile nella \textit{Figura \ref{fig:Login}}, permette di visualizzare un form per
   l'inserimento delle credenziali d'accesso alla web application. Le credenziali richieste sono username e password e
   sono legate alle credenziali di dominio dell'utente che deve effettuare il login. La verifica delle credenziali viene
   effettuata lato server, confrontando le credenziali inserite con quelle di dominio. Una volta che le credenziali vengono
@@ -25,7 +25,7 @@
   come le date di inizio e di fine previste e effettive, lo stato e l'operatore che ha effettuato operazioni sulla colata.
   Selezionando una colata vengono mostrati due pulsanti. Uno consente di visualizzare il popup visibile 
   nella \textit{Figura \ref{fig:ViewDetailLeghe}},
-  che mostra i dettagli relativi alla lega collegata alla colata selezionata come il relativo cliente, nome, descrizione. 
+  che mostra i dettagli relativi alla lega collegata alla colata selezionata come il relativo cliente, nome e descrizione. 
   L'altro pulsante invece consente di aggiungere un nuovo output relativo alla colata selezionata tramite un popup. 
   Questo popup consente di inserire i dati relativi a un nuovo inserimento di un output relativo alla
   colata selezionata. I dati in questione sono la data di scorifica, il tipo di output, il cassone in cui si trova l'output,
@@ -83,7 +83,7 @@
   vengono visualizzate le relative informazioni come il numero di scheda,
   il relativo stato, il progressivo del camion utilizzato per la spedizione della scheda, il numero di DDT e le date di apertura,
   chiusura e spedizione della scheda. Selezionando una scheda è possibile visualizzarne i dettagli tramite un popup analogo a
-  quello descritto in precedenza, nel quale vengono visualizzati i dettagli degli output relativi alla colata selezionata.
+  quello descritto in precedenza, nel quale vengono visualizzati i dettagli degli output relativi alla scheda selezionata.
   Inoltre se viene selezionata una scheda non spedita, è possibile inserire i dati di spedizione, come il numero del camion
   e il numero del DDT e dichiarare la scheda come spedita.
 
@@ -142,7 +142,7 @@
     \end{figure}
 
     \item \textit{Elenco Fermi}. Questa tabella contiene l'elenco dei fermi rilevati nel range temporale selezionato tramite i
-    filtri; e quelli ancora non causalizzati. I fermi sono filtrabili tra quelli causalizzati e quelli non causalizzati,
+    filtri e quelli ancora non causalizzati. I fermi sono filtrabili tra quelli causalizzati e quelli non causalizzati,
     che hanno lo sfondo arancione, per differenziarli da quelli causalizzati. Le informazioni visualizzate sono la data
     e l'ora di inizio e di fine del fermo, la durata totale, i cinque perchè e l'azione correttiva. Inoltre è possibile
     causalizzare i fermi non causalizzati e aggiungere nuovi fermi manualmente. La tabella è visibile nella 
@@ -187,17 +187,17 @@
 
   \section{Rapporti Di Lavoro Forni a Bacino}
   La schermata \textit{Rapporti Di Lavoro Forni a Bacino} permette di visualizzare
-  i rapporti di lavoro relativi agli impianti dei Forni a Bacino. Le informazioni visualizzate vengono filtrate in base 
-  forno a bacino e alla colata. Di default vengono mostrate le informazioni relative alla colata in corso.
+  i rapporti di lavoro relativi agli impianti dei Forni a Bacino. Le informazioni visualizzate vengono filtrate in base al
+  forno a bacino e alla colata selezionati. Di default vengono mostrate le informazioni relative alla colata in corso.
   Nella schermata vengono visualizzate le informazioni sul turno attuale e sulla colata selezionata, oltre che all'operatore
   di supporto per il turno in corso. Inoltre sono visibili le seguenti tabelle che mostrano informazioni relative al 
   rapporto di lavoro:
   \begin{itemize}
     \item \textit{Carichi Materiale}. Questa tabella contiene l'elenco dei materiali schedulati che devono essere caricati nella
     colata attualmente in corso e eventuali materiali non pianificati. In questa tabella vengono visualizzati i vari materiali
-    con la relativa quantità da caricare la quantità già caricata, lo stato della carica e il dettaglio dei carichi effettuati
+    con la relativa quantità da caricare, la quantità già caricata, lo stato della carica e il dettaglio dei carichi effettuati
     per ogni materiale. Inoltre è possibile aggiungere nuovi carichi o nuovi materiali non pianificati, eliminare un carico
-    inserito in precedenza e infinere chiudere la carica di un determinato materiale. La tabella è visibile nella
+    inserito in precedenza e infine chiudere la carica di un determinato materiale. La tabella è visibile nella
     \textit{Figura \ref{fig:CarichiMaterialiFb}};
 
     \begin{figure}[H]
@@ -214,7 +214,7 @@
 
     \item \textit{Elenco Anomalie}. Questa tabella contiene l'elenco delle anomalie che sono state rilevate durante la colata
     selezionata. Le informazioni visualizzate in questa tabella sono la data di rilevazione dell'anomalia, l'operatore che
-    ha inserito l'anomalia, il tipo e la descrizione. Inoltre è possibile anche aggiungereuna nuova anomalia per la
+    ha inserito l'anomalia, il tipo e la descrizione. Inoltre è possibile anche aggiungere una nuova anomalia per la
     colata selezionata. La tabella è visibile nella \textit{Figura \ref{fig:ElencoAnomalie}};
 
     \item \textit{Elenco Note Turno Corrente}. Questa tabella contiene l'elenco delle note che sono state inserite nel corso
@@ -272,7 +272,7 @@
     Inoltre è possibile anche aggiungere una nuova anomalia per la colata selezionata. La tabella è visibile nella
     \textit{Figura \ref{fig:ElencoAnomalie}};
     
-    \item \textit{Elenco Fermi}. Questa tabella contiene l'elenco dei fermi rilevati relativi alla colata selezionata e 
+    \item \textit{Elenco Fermi}. Questa tabella contiene l'elenco dei fermi rilevati relativi alla colata selezionata 
     e quelli ancora non causalizzati. I fermi sono filtrabili tra quelli causalizzati e quelli non causalizzati,
     che hanno lo sfondo arancione, per differenziarli da quelli causalizzati. Le informazioni visualizzate sono la macchina
     in cui si è verificato il fermo, la data e l'ora di inizio e di fine del fermo, la durata totale, i cinque perchè e
@@ -288,10 +288,10 @@
     dieci colate precedenti a quella selezionata. Le informazioni visualizzate sono le stesse visualizzate nella tabella
     contenente le note relative alla colata corrente, con l'aggiunta del numero della colata relativa alla nota;
     
-    \item \textit{Passaggio di Consenge}. Questa tabella contiene l'elenco dei passaggi di consegna che sono stati inseriti
+    \item \textit{Passaggio di Consegne}. Questa tabella contiene l'elenco dei passaggi di consegne che sono stati inseriti
     nel corso della colata selezionata. Le informazioni visualizzate in questa tabella sono la data di inserimento, l'operatore
     che ha inserito il passaggio di consegna e la relativa descrizione. Inoltre è possibile aggiungere un nuovo passaggio
-    di consegne.
+    di consegna.
     La tabella è visibile nella \textit{Figura \ref{fig:PassaggioDiConsegne}};
 
     \begin{figure}[H]
@@ -301,9 +301,9 @@
       \label{fig:PassaggioDiConsegne}
     \end{figure}
     
-    \item \textit{Passaggio di Consegne Turno Precedente}. Questa tabella contiene l'elenco dei passaggi di consegna che sono
-    stati inseriti in durante il turno precedente. Le informazioni visualizzate sono le stesse visualizzate nella tabella
-    contenente i passaggi di consegne relative alla colata corrente;
+    \item \textit{Passaggio di Consegne Turno Precedente}. Questa tabella contiene l'elenco dei passaggi di consegne che sono
+    stati inseriti durante il turno precedente. Le informazioni visualizzate sono le stesse visualizzate nella tabella
+    contenente i passaggi di consegna relativi alla colata corrente;
     
     \item \textit{Tempi Componenti}. Questa tabella contiene l'elenco dei componenti che si trovano nel reparto colata continua
     e le ore di funzionamento. Inoltre è anche possibile resettare questo contatore premendo sul pulsante reset. Questi dati
@@ -325,10 +325,10 @@
   visualizzate le informazioni sul turno attuale e sulla colata selezionata, oltre che all'operatore di supporto per il turno
   in corso. Inoltre sono visibili le seguenti tabelle che mostrano informazioni relative al rapporto di lavoro:
   \begin{itemize}
-    \item \textit{Pesatura Pacchi}. Questa tabella contiene le informazioni sulle tipologie di pacchi e la relativa quantità
+    \item \textit{Pesatura Pacchi}. Questa tabella contiene le informazioni sulle tipologie di pacchi e le relative quantità
     che entrano nel magazzino pani. Le informazioni sono relative alle rilevazioni automatiche, lette automaticamente dal
-    software di supervisione, le rilevazioni inserite manualmente e il totale. Inoltre è possibile inserire nuove rilevazioni
-    manuali e anche di impostare il tempo di pesatura manuale. La tabella è visibile nella 
+    software di supervisione, alle rilevazioni inserite manualmente e al totale. Inoltre è possibile inserire nuove rilevazioni
+    manuali e anche impostare il tempo di pesatura manuale. La tabella è visibile nella 
     \textit{Figura \ref{fig:PesaturaPacchi}};
 
     \begin{figure}[H]
@@ -341,7 +341,7 @@
     \item \textit{Interruzoni}. Questa tabella contiene le informazioni sulle interruzioni che si sono verificate durante la
     colata selezionata. Le informazioni visualizzate in questa tabella sono la data di inizio, la data di fine, gli operatori
     che hanno inserito l'inizio e la fine dell'interruzione. Infatti è presente un pulsante che, se non è in corso nessuna interruzione
-    consente di inserire una nuova interruzione, altrimenti permette di chiudere l'interruzione già presente.La tabella è
+    consente di inserirne una nuova, altrimenti permette di chiudere l'interruzione già presente. La tabella è
     visibile nella \textit{Figura \ref{fig:Interruzioni}};
 
     \begin{figure}[H]
@@ -351,7 +351,7 @@
       \label{fig:Interruzioni}
     \end{figure}
 
-    \item \textit{Elenco Fermi}. Questa tabella contiene l'elenco dei fermi rilevati relativi alla colata selezionata e 
+    \item \textit{Elenco Fermi}. Questa tabella contiene l'elenco dei fermi rilevati relativi alla colata selezionata 
     e quelli ancora non causalizzati. I fermi sono filtrabili tra quelli causalizzati e quelli non causalizzati,
     che hanno lo sfondo arancione, per differenziarli da quelli causalizzati. Le informazioni visualizzate sono la data e
     l'ora di inizio e di fine del fermo, la durata totale, i cinque perchè e
@@ -377,10 +377,10 @@
     \item \textit{Passaggio di Consenge}. Questa tabella contiene l'elenco dei passaggi di consegna che sono stati inseriti
     nel corso della colata selezionata. Le informazioni visualizzate in questa tabella sono la data di inserimento, l'operatore
     che ha inserito il passaggio di consegna e la relativa descrizione. Inoltre è possibile aggiungere un nuovo passaggio
-    di consegne. La tabella è visibile nella \textit{Figura \ref{fig:PassaggioDiConsegne}};
+    di consegna. La tabella è visibile nella \textit{Figura \ref{fig:PassaggioDiConsegne}};
 
-    \item \textit{Passaggio di Consegne Turno Precedente}. Questa tabella contiene l'elenco dei passaggi di consegna che sono
-    stati inseriti in durante il turno precedente. Le informazioni visualizzate sono le stesse visualizzate nella tabella
+    \item \textit{Passaggio di Consegne Turno Precedente}. Questa tabella contiene l'elenco dei passaggi di consegne che sono
+    stati inseriti durante il turno precedente. Le informazioni visualizzate sono le stesse visualizzate nella tabella
     contenente i passaggi di consegne relative alla colata corrente;
 
   \end{itemize}
@@ -396,7 +396,7 @@
   accettata in precedenza, con i relativi materiali correttivi e la quantità da caricare.\\
   In questa schermata è possibile calcolare le correzioni per le analisi chimiche che non rispettano le specifiche. Quando
   viene effettuato il calcolo viene mostrato l'elenco di possibili proposte con l'indicazione del correttivo primario utilizzato
-  per effettuare il calcolo. E poi possibile aggiungere e/o rimuovere altri materiali o modificare la quantità da caricare
+  per effettuare il calcolo. Inoltre, è possibile aggiungere e/o rimuovere altri materiali o modificare la quantità da caricare
   per ogni correttivo. Infine è possibile accettare o rifiutare le proposte di correzione che sono state proposte a seguito del
   calcolo.\\
   L'ultima operazione che è possibile effettuare in questa schermata è quella di assegnare una determinata analisi come
@@ -421,7 +421,7 @@
   alle anagrafiche utilizzate nella varie schermate della web application. In questa schermata è possibile aggiungere una nuova
   anagrafica o modificarne una esistente. Le anagrafiche consultabili in questa pagina sono relative ai diversi aspetti
   dell'applicazione, come ad esempio l'elenco dei gruppi utenti, delle pezzature e delle provenienze dei materiali, dei
-  tipi di materiale, dei tipi di analisi chimiche e le cause dei rallentamenti e i cinque perchè.
+  tipi di materiale, dei tipi di analisi chimiche, le cause dei rallentamenti e i cinque perchè.
   
   \section{Security}
   La schermata \textit{Security} permette di assegnare ai vari gruppi utente

@@ -142,14 +142,14 @@
     \item \textit{VocDichiarazione}, ovvero data e ora in cui è stato inserito l'output;
     \item \textit{VocNumColataProg}, ovvero il numero progressivo della colata di riferimento;
     \item \textit{VocNumColata}, ovvero il numero della colata di riferimento;
-    \item \textit{VocIdColata}, ovvero il riferimento all'id della colata relativa;
+    \item \textit{VocIdColata}, ovvero il riferimento all'identificativo della colata relativa;
     \item \textit{VocSettimana}, ovvero il numero della settimana nell'anno in cui è stata effettuata la scorifica;
     \item \textit{VocNomeLega}, ovvero il nome della lega relativa alla colata di riferimento;
     \item \textit{VocScorifica}, ovvero data e ora in cui è stata effettuata la scorifica;
     \item \textit{VocOperatore}, ovvero l'operatore che ha inserito l'output;
-    \item \textit{VocIdQualita}, ovvero il riferimento all'id della qualità dell'output;
+    \item \textit{VocIdQualita}, ovvero il riferimento all'identificativo della qualità dell'output;
     \item \textit{VocNomeQualita}, ovvero il descrittivo della qualità dell'output;
-    \item \textit{VocIdProvenienzaColaticcio}, ovvero il riferimento all'id della provenienza dell'output;
+    \item \textit{VocIdProvenienzaColaticcio}, ovvero il riferimento all'identificativo della provenienza dell'output;
     \item \textit{VocNomeProvenienzaColaticcio}, ovvero il descrittivo della provenienza dell'output;
     \item \textit{VocNote}, ovvero eventuali note inserite dall'operatore che ha aggiunto l'output.
   \end{itemize}
@@ -199,7 +199,7 @@
     l'id dell'analisi desiderata e restituisce i relativi dettagli, come l'elemento, la percentuale rilevata, il peso
     (calcolato in base alla percentuale e al peso totale della colata) e le specifiche da rispettare per rimanere
     all'interno dello standard. Il metodo restituisce un oggetto contenente i dettagli dell'analisi e delle
-    correzioni eventualente già accettate e memorizzate nel database;
+    correzioni eventualmente già accettate e memorizzate nel database;
     \item \textit{CalcoloPropostaCorrezioni}. Questo metodo prende come parametri l'elenco delle rilevazioni relative a
     un'analisi chimica e restituisce un oggetto contenente le proposte di correzione per quella determinata analisi chimica.
     In questo metodo vengono calcolate le quantità dei correttivi da utilizzare per adattare le quantità degli
@@ -217,17 +217,20 @@
     contenente le informazioni relative alla colata attualmente in corso nel Forno a Bacino passato come parametro al metodo;
     \item \textit{AddPesoColata}. Questo metodo consente di salvare nel database il peso totale della colata passata
     come parametro;
-    \item \textit{GetColateBaseByDate}. Questo metodo restituisce un array di oggetti conteneti le informazioni relative
+    \item \textit{GetColateBaseByDate}. Questo metodo restituisce un array di oggetti contenenti le informazioni relative
     alle colate base con data di inizio o di schedulazione compresa tra le date di inizio e di fine passate come parametro;
     \item \textit{GetColateSpecificheByBase}. Questo metodo restituisce un array di oggetti contenenti le informazioni
     relative alle colate specifiche che fanno riferimento alla colata base passata come parametro;
     \item \textit{GetLegheBaseByColata}. Questo metodo restituisce le informazioni della lega base relativa alla
     colata base passata come parametro;
-    \item \textit{GetLegheSpecificheByColata}. Questo metodo restituisce le informazioni della lega specificha relativa
+    \item \textit{GetLegheSpecificheByColata}. Questo metodo restituisce le informazioni della lega specifica relativa
     alla colata specifica passata come parametro.
   \end{itemize}
 
   \subsection{OuptutColataController}
+  La classe \textit{OuptutColataController} contiene tutte le funzioni relative agli output delle colate che sono stati registrati,
+  come le funzioni per l'inserimento di un nuovo output o per la lettura degli output già inseriti in precedenza. I metodi più significativi
+  di questa classe sono i seguenti:
   \begin{itemize}
     \item \textit{AddOutputBase}. Questo metodo inserisce nel database la registrazione dell'output di una colata base
     passato come parametro;
@@ -244,12 +247,16 @@
   \end{itemize}
 
   \subsection{RapportiDiLavoroController}
+  La classe \textit{RapportiDiLavoroController} contiene tutte le funzioni relative ai rapporti di lavoro dei vari impianti,
+  come le funzioni per la lettura delle informazioni relative ai rapporti di lavoro attuali o passati o l'inserimento di nuove
+  rilevazioni di fermi, anomalie e/o note. I metodi più significativi
+  di questa classe sono i seguenti:
   \begin{itemize}
     \item \textit{GetRapportoFornoFusorioActualColata}. Questo metodo restituisce il rapporto di lavoro base in
     corso attualmente;
-    \item \textit{GetRapportoForniBacinoActualColata}. Questo metodo restituisce il rapporto di lavoro relativa alla
+    \item \textit{GetRapportoForniBacinoActualColata}. Questo metodo restituisce il rapporto di lavoro relativo alla
     colata attualmente in corso nel forno a bacino passato come parametro;
-    \item \textit{GetRapportoColataContinuaActualColata}. Questo metodo restituisce il rapporto di lavoro relativa
+    \item \textit{GetRapportoColataContinuaActualColata}. Questo metodo restituisce il rapporto di lavoro relativo
     alla colata attualmente in corso nella colata continua;
     \item \textit{GetRapportiColataContinuaByYear}. Questo metodo restituisce l'elenco di tutti i rapporti specifici
     della colata continua ordinati per data in modo decrescente e filtrati in base all'anno passato come parametro;
@@ -258,13 +265,13 @@
     \item \textit{GetFermiFornoFusorio}. Questo metodo restituisce la lista di fermi che si sono verificati
     all'interno del turno passato come parametro;
     \item \textit{GetFermiColataContinuaByColata}. Questo metodo restituisce la lista di fermi che si sono
-    verificati durante la colata passata come parametro;
+    verificati durante la colata passata come parametro nell'impianto di colata continua;
     \item \textit{GetFermiMagazzinoPaniByColata}. Questo metodo restituisce la lista di fermi che si sono
-    verificati durante la colata passata come parametro;
+    verificati durante la colata passata come parametro nel magazzino pani;
     \item \textit{AddFermo}. Questo metodo consente di aggiungere un nuovo fermo manualmente, con data e ora
     di inizio e di fine e i cinque perchè passati come parametro;
     \item \textit{EditListaFermo}. Questo metodo consente di modificare il fermo passato come parametro e viene
-    metodo viene utilizzato per causalizzate i fermi automatici salvati dal PLC;
+    utilizzato per causalizzare i fermi automatici salvati dal PLC;
     \item \textit{AddAnomalia}. Questo metodo consente di inserire nel database una nuova anomalia che viene
     passata come parametro;
     \item \textit{GetAnomalieFornoFusorioByShift}. Questo metodo restituisce l'elenco di anomalie che si sono
@@ -290,22 +297,22 @@
     \item \textit{GetNoteMagazzinoPaniPrevTenColate}. Questo metodo restituisce l'elenco di note relative al magazzino
     pani che sono state inserite durante le ultime dieci colate passate come parametro;
     \item \textit{GetNoteForniBacinoByShift}. Questo metodo restituisce l'elenco di note relative al forno bacino che
-    sono state inserite durante il turno passato e nel forno passati come parametro;
+    sono state inserite durante il turno e nel forno passati come parametro;
     \item \textit{AddNota}. Questo metodo consente di inserire una nuova nota per il reparto passato come parametro;
     \item \textit{GetPassaggioConsegneColataContinua}. Questo metodo restituisce l'elenco di passaggi di consegne
-    relative alla colata continua che sono stati inseriti durante la colata passata come parametro;
+    relativi alla colata continua che sono stati inseriti durante la colata passata come parametro;
     \item \textit{GetPassaggioConsegneMagazzinoPani}. Questo metodo restituisce l'elenco di passaggi di consegne
-    relative al magazzino pani che sono stati inseriti durante la colata passata come parametro;
+    relativi al magazzino pani che sono stati inseriti durante la colata passata come parametro;
     \item \textit{GetPassaggioConsegneColataContinuaPrevShift}. Questo metodo restituisce l'elenco di passaggi di
-    consegne relative alla colata continua che sono stati inseriti durante il turno precedente a quello attuale,
+    consegne relativi alla colata continua che sono stati inseriti durante il turno precedente a quello attuale,
     passato come parametro;
     \item \textit{GetPassaggioConsegneMagazzinoPaniPrevShift}. Questo metodo restituisce l'elenco di passaggi di
-    consegne relative al magazzino pani che sono stati inseriti durante il turno precedente a quello attuale,
+    consegne relativi al magazzino pani che sono stati inseriti durante il turno precedente a quello attuale,
     passato come parametro;
     \item \textit{GetPaniDaRifondereListByColata}. Questo metodo restituisce l'elenco delle rilevazioni dei pani da
     rifondere che sono state inserite durante la colata passata come parametro;
     \item \textit{AddPaniDaRifondere}. Questo metodo consente di inserire una nuova rilevazione di pani da rifondere
-    che viene passata come parametra;
+    che viene passata come parametro;
     \item \textit{GetInterruzioniMagazzinoPani}. Questo metodo restituisce l'elenco di interruzioni verificatesi nel
     magazzino pani relative alla colata passata come parametro;
     \item \textit{AddInterruzione}. Questo metodo consente di inserire una nuova interruzione all'orario passato come
@@ -314,19 +321,23 @@
     orario di fine quello passato come parametro;
     \item \textit{GetNumeroFormatoPacchi}. Questo metodo restituisce il numero e il formato dei pacchi che vengono
     analizzati nel reparto magazzino pani. Il metodo viene richiamato ogni minuto e interroga un servizio esterno chiamato
-    WorkerMsgScadaService, sempre sviluppato dal team di \textit{Adipso}, per ricevere le informazioni direttamente dal
+    \textit{WorkerMsgScadaService}, sempre sviluppato dal team di \textit{Adipso}, per ricevere le informazioni direttamente dal
     server SCADA;
     \item \textit{GetTempiComponenti}. Questo metodo restituisce le informazioni sul tempo di lavoro dei componenti
     nel reparto di colata continua. Il metodo viene richiamato ogni dieci minuti e interroga il servizio esterno
-    WorkerMsgScadaService per ricevere le informazioni direttamente dal server SCADA;
+    \textit{WorkerMsgScadaService} per ricevere le informazioni direttamente dal server SCADA;
     \item \textit{ResetOreLavoro}. Questo metodo consente di resettare le informazioni sul tempo di lavoro dei
-    componenti nel reparto di colata continua. Il metodo invia al servizio esterno WorkerMsgScadaService la richiesta
+    componenti nel reparto di colata continua. Il metodo invia al servizio esterno \textit{WorkerMsgScadaService} la richiesta
     di reset dei tag e restituisce l'esito dell'operazione.
   \end{itemize}
 
 
 
   \subsection{SchedeOutputController}
+  La classe \textit{SchedeOutputController} contiene tutte le funzioni relative alle schede output,
+  come le funzioni per la lettura delle informazioni relative alle schede aperte e/o chiuse, la creazione di una nuova scheda o 
+  l'inserimento delle informazioni relative alla spedizione. I metodi più significativi
+  di questa classe sono i seguenti:
   \begin{itemize}
     \item \textit{AddNewScheda}. Questo metodo consente di creare una nuova scheda associata a un determinato cassone.
     Questo metodo viene richiamato in automatico ogni volta che una scheda viene chiusa, per creare una nuova scheda
@@ -334,17 +345,17 @@
     dell'utente per inserire una nuova scheda solo per un cassone che non ha alcuna scheda associata;
     \item \textit{CloseScheda}. Questo metodo consente di chiudere la scheda passata come parametro e di dichiarla
     \textit{IN ATTESA DI SPEDIZIONE};
-    \item \textit{AddNCamion}. Questo metodo consente di dichiarare una scheda come spedita e a inserire il numero
+    \item \textit{AddNCamion}. Questo metodo consente di dichiarare una scheda come spedita e di inserire il numero
     progressivo del camion che ha spedito la scheda;
     \item \textit{AddNDdt}. Questo metodo consente di inserire le informazioni relative al documento di trasporto
     associato alla spedizione di una determinata scheda output passata come parametro;
     \item \textit{GetSchedaAttivaByCassone}. Questo metodo restituisce le informazioni relative alla scheda
     attualmente aperta relativa la cassone passato come parametro;
     \item \textit{GetSchedeBaseChiuseByDate}. Questo metodo restituisce l'elenco di tutte le schede base chiuse
-    comprese nel periodo di tempo passate come parametro;
+    comprese nel periodo di tempo passato come parametro;
     \item \textit{GetSchedeBaseAperte}. Questo metodo restituisce le informazioni relative a tutte le schede base aperte;
     \item \textit{GetSchedeSpecificheChiuseByDate}. Questo metodo restituisce l'elenco di tutte le schede specifiche
-    chiuse comprese nel periodo di tempo passate come parametro;
+    chiuse comprese nel periodo di tempo passato come parametro;
     \item \textit{GetSchedeSpecificheAperte}. Questo metodo restituisce le informazioni relative a tutte le schede
     specifiche aperte;
     \item \textit{GetSchedaById}. Questo metodo restituisce le informazioni relative alla scheda che ha come
@@ -354,18 +365,24 @@
 
 
   \subsection{ShiftController}
+  La classe \textit{ShiftController} contiene tutte le funzioni relative alla gestione dei turni,
+  come le funzioni per il calcolo del turno attuale o quello precedente. I metodi più significativi
+  di questa classe sono i seguenti:
   \begin{itemize}
     \item \textit{GetActualShift}. Questo metodo restituisce le informazioni relative al turno in corso in base
     all'utente passato come parametro e al tipo di turno dello stesso utente. Le informazioni restituite sono
     la data di inizio, di fine e il numero del turno nella giornata;
     \item \textit{GetPreviousShift}. Questo metodo restituisce le informazioni relative al turno precedente a
-    quello attuale base all'utente passato come parametro e al tipo di turno dello stesso utente. Le informazioni
+    quello attuale in base all'utente passato come parametro e al tipo di turno dello stesso utente. Le informazioni
     restituite sono la data di inizio, di fine e il numero del turno nella giornata;
     \item \textit{GetOperatoriASupporto}. Questo metodo restituisce l'elenco degli operatori a supporto dell'operatore
     principale nell'impianto e nel turno passati come parametro.
   \end{itemize}
 
   \subsection{UserController}
+  La classe \textit{UserController} contiene tutte le funzioni relative alla gestione degli utenti,
+  come le funzioni per il login o per la lettura delle funzionalità associate a un determinato utente. I metodi più significativi
+  di questa classe sono i seguenti:
   \begin{itemize}
     \item \textit{AuthenticateSupportUser}. Questo metodo consente di effettuare il login degli operatori di supporto,
     ovvero operatori che assistono gli operatori primari nei diversi reparti;
@@ -373,6 +390,6 @@
     all'apertura della web application. Il login viene effettuato in base alla tipologia di security impostata nel
     file di configurazione. Di default è impostata la tipologia \textit{Domain}, quindi le credenziali da inserire
     durante la fase di login sono legate al dominio a cui appartiene il server sul quale è installata la web application;
-    \item \textit{LoadAllFunctByUserGroup}. Questo il metodo viene utilizzato per recuperare dal database le funzionalità
+    \item \textit{LoadAllFunctByUserGroup}. Questo metodo viene utilizzato per recuperare dal database le funzionalità
     a cui ha accesso un determinato utente in base al suo gruppo di appartenenza, che viene passato come parametro.    
   \end{itemize}

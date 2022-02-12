@@ -63,7 +63,7 @@
 \contentsline {paragraph}{Elenco Pesatura Pacchi}{18}{}%
 \contentsline {paragraph}{Elenco fermi}{18}{}%
 \contentsline {paragraph}{Elenco Anomalie}{18}{}%
-\contentsline {paragraph}{Elenco note turno}{19}{}%
+\contentsline {paragraph}{Elenco note}{19}{}%
 \contentsline {subsubsection}{Visualizzazione delle Analisi Chimiche e calcolo delle correzioni}{19}{}%
 \contentsline {paragraph}{}{19}{}%
 \contentsline {paragraph}{Dettaglio Analisi}{19}{}%
@@ -127,24 +127,24 @@
 \contentsline {subsection}{\numberline {3.2.2}ColateController}{42}{}%
 \contentsline {subsection}{\numberline {3.2.3}OuptutColataController}{43}{}%
 \contentsline {subsection}{\numberline {3.2.4}RapportiDiLavoroController}{43}{}%
-\contentsline {subsection}{\numberline {3.2.5}SchedeOutputController}{46}{}%
-\contentsline {subsection}{\numberline {3.2.6}ShiftController}{47}{}%
+\contentsline {subsection}{\numberline {3.2.5}SchedeOutputController}{47}{}%
+\contentsline {subsection}{\numberline {3.2.6}ShiftController}{48}{}%
 \contentsline {subsection}{\numberline {3.2.7}UserController}{48}{}%
-\contentsline {chapter}{\numberline {4}Interfaccia}{49}{}%
-\contentsline {section}{\numberline {4.1}Login}{49}{}%
-\contentsline {section}{\numberline {4.2}Storico Colate}{50}{}%
-\contentsline {section}{\numberline {4.3}Schede Colaticci}{51}{}%
-\contentsline {section}{\numberline {4.4}Rapporti Di Lavoro Forno Fusorio}{54}{}%
-\contentsline {section}{\numberline {4.5}Rapporti Di Lavoro Forni a Bacino}{57}{}%
-\contentsline {section}{\numberline {4.6}Rapporti Di Lavoro Colata Continua}{58}{}%
-\contentsline {section}{\numberline {4.7}Rapporti Di Lavoro Magazzino Pani}{61}{}%
-\contentsline {section}{\numberline {4.8}Analisi Chimiche}{63}{}%
-\contentsline {section}{\numberline {4.9}Materie e Elementi Chimici}{65}{}%
-\contentsline {section}{\numberline {4.10}Gestione Dizionari}{65}{}%
-\contentsline {section}{\numberline {4.11}Security}{65}{}%
-\contentsline {chapter}{\numberline {5}Sviluppi futuri e conclusione}{66}{}%
-\contentsline {section}{\numberline {5.1}Sviluppi futuri}{66}{}%
-\contentsline {subsection}{\numberline {5.1.1}Analisi Metallografiche}{66}{}%
-\contentsline {subsection}{\numberline {5.1.2}Gestione Carichi Magazzino}{67}{}%
-\contentsline {section}{\numberline {5.2}Conclusioni}{67}{}%
-\contentsline {chapter}{Bibliografia}{69}{}%
+\contentsline {chapter}{\numberline {4}Interfaccia}{50}{}%
+\contentsline {section}{\numberline {4.1}Login}{50}{}%
+\contentsline {section}{\numberline {4.2}Storico Colate}{51}{}%
+\contentsline {section}{\numberline {4.3}Schede Colaticci}{52}{}%
+\contentsline {section}{\numberline {4.4}Rapporti Di Lavoro Forno Fusorio}{55}{}%
+\contentsline {section}{\numberline {4.5}Rapporti Di Lavoro Forni a Bacino}{58}{}%
+\contentsline {section}{\numberline {4.6}Rapporti Di Lavoro Colata Continua}{59}{}%
+\contentsline {section}{\numberline {4.7}Rapporti Di Lavoro Magazzino Pani}{62}{}%
+\contentsline {section}{\numberline {4.8}Analisi Chimiche}{64}{}%
+\contentsline {section}{\numberline {4.9}Materie e Elementi Chimici}{66}{}%
+\contentsline {section}{\numberline {4.10}Gestione Dizionari}{66}{}%
+\contentsline {section}{\numberline {4.11}Security}{66}{}%
+\contentsline {chapter}{\numberline {5}Sviluppi futuri e conclusione}{67}{}%
+\contentsline {section}{\numberline {5.1}Sviluppi futuri}{67}{}%
+\contentsline {subsection}{\numberline {5.1.1}Analisi Metallografiche}{67}{}%
+\contentsline {subsection}{\numberline {5.1.2}Gestione Carichi Magazzino}{68}{}%
+\contentsline {section}{\numberline {5.2}Conclusioni}{68}{}%
+\contentsline {chapter}{Bibliografia}{70}{}%
